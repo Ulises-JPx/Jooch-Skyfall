@@ -5,11 +5,11 @@ Socio Formador: **Verqor**
 
 ## Team Members
 
-Melissa Mireles Rendón........ITC  |  A01379736
-Julio Cesar Vivas Medina......ITC  |  A01749879
-Sebastián Espinoza Farias.....ITC  |  A01750311
-Ulises Jaramillo Portilla.....ITC  |  A01798380
-Alberto Cebreros González.....ITC  |  A01798671
+- Melissa Mireles Rendón........ITC  |  A01379736
+- Julio Cesar Vivas Medina......ITC  |  A01749879
+- Sebastián Espinoza Farias.....ITC  |  A01750311
+- Ulises Jaramillo Portilla.....ITC  |  A01798380
+- Alberto Cebreros González.....ITC  |  A01798671
 
 ## References
 
