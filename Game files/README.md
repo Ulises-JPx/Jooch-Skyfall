@@ -1,0 +1,2 @@
+# Game files
+Carpeta únicamente para guardar los proyectos de Unity que se realice por separado y que podamos tener acceso todos, crear una carpeta nueva con el nombre de a que parte del juego corresponde para dentro colocar el proyecto de Unity, cada que se realize commit describir brevemente que se sube al repositorio.
