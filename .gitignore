@@ -1,24 +1,24 @@
 # Unity generated files within Game Files folder
-/Game Files/[Ll]ibrary/
-/Game Files/[Tt]emp/
-/Game Files/[Oo]bj/
-/Game Files/[Bb]uild/
-/Game Files/[Bb]uilds/
-/Game Files/[Ll]ogs/
-/Game Files/[Uu]ser[Ss]ettings/
-/Game Files/.vscode/
+/Game Files/JoochSkyfallGame/[Ll]ibrary/
+/Game Files/JoochSkyfallGame/[Tt]emp/
+/Game Files/JoochSkyfallGame/[Oo]bj/
+/Game Files/JoochSkyfallGame/[Bb]uild/
+/Game Files/JoochSkyfallGame/[Bb]uilds/
+/Game Files/JoochSkyfallGame/[Ll]ogs/
+/Game Files/JoochSkyfallGame/[Uu]ser[Ss]ettings/
+/Game Files/JoochSkyfallGame/.vscode/
 
 # Builds
 /build/
-/Game Files/build/
+/Game Files/JoochSkyfallGame/build/
 
 # macOS
 .DS_Store
-/Game Files/.DS_Store
+/Game Files/JoochSkyfallGame/.DS_Store
 .AppleDouble
-/Game Files/.AppleDouble
+/Game Files/JoochSkyfallGame/.AppleDouble
 .LSOverride
-/Game Files/.LSOverride
+/Game Files/JoochSkyfallGame/.LSOverride
 
 # Thumbnails
 /._*
@@ -26,23 +26,23 @@
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
-/Game Files/.Spotlight-V100
-/Game Files/.Trashes
+/Game Files/JoochSkyfallGame/.Spotlight-V100
+/Game Files/JoochSkyfallGame/.Trashes
 
 # Windows thumbnail cache files
 /Thumbs.db
 /ehthumbs.db
 /ehthumbs_vista.db
-/Game Files/Thumbs.db
-/Game Files/ehthumbs.db
-/Game Files/ehthumbs_vista.db
+/Game Files/JoochSkyfallGame/Thumbs.db
+/Game Files/JoochSkyfallGame/ehthumbs.db
+/Game Files/JoochSkyfallGame/ehthumbs_vista.db
 
 # Directories potentially created on remote AFP share
 /.AppleDB/
 /.AppleDesktop/
 /.TemporaryItems/
 /.apdisk
-/Game Files/.AppleDB/
-/Game Files/.AppleDesktop/
-/Game Files/.TemporaryItems/
-/Game Files/.apdisk
+/Game Files/JoochSkyfallGame/.AppleDB/
+/Game Files/JoochSkyfallGame/.AppleDesktop/
+/Game Files/JoochSkyfallGame/.TemporaryItems/
+/Game Files/JoochSkyfallGame/.apdisk
