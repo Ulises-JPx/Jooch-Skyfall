@@ -1,20 +1,24 @@
-# Unity generated files
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
-.vscode/
+# Unity generated files within Game Files folder
+/Game Files/[Ll]ibrary/
+/Game Files/[Tt]emp/
+/Game Files/[Oo]bj/
+/Game Files/[Bb]uild/
+/Game Files/[Bb]uilds/
+/Game Files/[Ll]ogs/
+/Game Files/[Uu]ser[Ss]ettings/
+/Game Files/.vscode/
 
 # Builds
 /build/
+/Game Files/build/
 
 # macOS
 .DS_Store
+/Game Files/.DS_Store
 .AppleDouble
+/Game Files/.AppleDouble
 .LSOverride
+/Game Files/.LSOverride
 
 # Thumbnails
 /._*
@@ -22,14 +26,23 @@
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+/Game Files/.Spotlight-V100
+/Game Files/.Trashes
 
 # Windows thumbnail cache files
 /Thumbs.db
 /ehthumbs.db
 /ehthumbs_vista.db
+/Game Files/Thumbs.db
+/Game Files/ehthumbs.db
+/Game Files/ehthumbs_vista.db
 
 # Directories potentially created on remote AFP share
 /.AppleDB/
 /.AppleDesktop/
 /.TemporaryItems/
 /.apdisk
+/Game Files/.AppleDB/
+/Game Files/.AppleDesktop/
+/Game Files/.TemporaryItems/
+/Game Files/.apdisk
