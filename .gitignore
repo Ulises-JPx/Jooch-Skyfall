@@ -5,53 +5,31 @@
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
-/[Uu]nityGenerated/
-/[Uu]nityPackageManager/
+/[Uu]ser[Ss]ettings/
+.vscode/
 
-# Visual Studio / Visual Studio Code generated files
-/*.sln
-/*.csproj
-/*.suo
-/*.user
-/*.userprefs
-/*.pidb
-/*.booproj
-/*.sln.docstates
-/.vscode/
+# Builds
+/build/
 
-# macOS generated files
+# macOS
 .DS_Store
 .AppleDouble
 .LSOverride
 
-# Build artifacts
-/Builds/
+# Thumbnails
+/._*
 
-# Unity Cloud Build generated files
-/cloud_build/
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
 
-# Android generated files
-/*.apk
-/*.aab
-/*.unitypackage
+# Windows thumbnail cache files
+/Thumbs.db
+/ehthumbs.db
+/ehthumbs_vista.db
 
-# iOS generated files
-/*.xcodeproj/
-/*.xcworkspace/
-/*.plist
-/*.entitlements
-/*.pbxproj
-/*.mode1v3
-/*.mode2v3
-/*.perspectivev3
-/*.xcuserstate
-
-# Gradle files
-/gradle/
-/gradlew
-/gradlew.bat
-/gradle.properties
-/gradle/
-
-# Crashlytics generated files
-/crashlytics-build.properties
+# Directories potentially created on remote AFP share
+/.AppleDB/
+/.AppleDesktop/
+/.TemporaryItems/
+/.apdisk
