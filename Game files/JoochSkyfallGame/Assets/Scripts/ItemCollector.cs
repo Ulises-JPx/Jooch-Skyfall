@@ -30,6 +30,16 @@ public class ItemCollector : MonoBehaviour
             Destroy(collision.gameObject);
             Am.maizCount ++;
         }
+        if (collision.gameObject.CompareTag("Chile"))
+        {
+            Destroy(collision.gameObject);
+            Am.chileCount ++;
+        }
+        if (collision.gameObject.CompareTag("LVerqor"))
+        {
+            Destroy(collision.gameObject);
+            Am.verqorCount ++;
+        }
     }
 
     
