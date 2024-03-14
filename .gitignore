@@ -7,6 +7,8 @@
 /Game Files/JoochSkyfallGame/[Ll]ogs/
 /Game Files/JoochSkyfallGame/[Uu]ser[Ss]ettings/
 /Game Files/JoochSkyfallGame/.vscode/
+/Game Files/JoochSkyfallGame/Assembly-CSharp.csproj
+/Game Files/JoochSkyfallGame/JoochSkyfallGame.sln
 
 # Builds
 /build/
