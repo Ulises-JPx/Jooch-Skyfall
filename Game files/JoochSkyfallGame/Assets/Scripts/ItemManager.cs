@@ -44,7 +44,7 @@ public class ItemManager : MonoBehaviour
 
     void VerqorChange()
     {
-        if (verqorCount == 5)
+        if (verqorCount == 1)
         {
             SceneManager.LoadScene("TriviaScene");
             verqorCount = 0;
