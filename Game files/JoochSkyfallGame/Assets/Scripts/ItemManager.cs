@@ -10,19 +10,22 @@ using UnityEngine.SceneManagement;
 
 public class ItemManager : MonoBehaviour
 {
-
-    public int aguacateCount = 0;
+    public static int verCoinsCount = 0;
+    public TextMeshProUGUI verCoinsText;
+    public static int aguacateCount = 0;
     public TextMeshProUGUI aguacateText;
-    public int cafeCount = 0;
+    public static int cafeCount = 0;
     public TextMeshProUGUI cafeText;
-    public int jitomateCount = 0;
+    public static int jitomateCount = 0;
     public TextMeshProUGUI jitomateText;
-    public int maizCount = 0;
+    public static int maizCount = 0;
     public TextMeshProUGUI maizText;
-    public int chileCount = 0;
+    public static int chileCount = 0;
     public TextMeshProUGUI chileText;
     public int verqorCount = 0;
     public TextMeshProUGUI verqorText;
+
+    public TextMeshProUGUI deudaText; 
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +41,9 @@ public class ItemManager : MonoBehaviour
         maizText.text = ": " + maizCount;
         chileText.text = ": " + chileCount;
         verqorText.text = ": " + verqorCount;
+        verCoinsText.text = ": " + verCoinsCount;
+        deudaText.text = " " + ElectionManager.deuda;
+        
         VerqorChange();
     }
 

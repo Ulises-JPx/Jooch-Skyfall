@@ -66,13 +66,16 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ScriptsQuiz\AnswerScript.cs" />
     <Compile Include="Assets\Scripts\StartGame1.cs" />
-    <Compile Include="Assets\Scripts\RandomSpawner.cs" />
     <Compile Include="Assets\Scripts\ScriptsQuiz\PregYResp.cs" />
+    <Compile Include="Assets\Scripts\ScriptsSkyfall\ItemCollector.cs" />
     <Compile Include="Assets\Scripts\movement.cs" />
     <Compile Include="Assets\Scripts\ScriptsQuiz\QuizManager.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\ElectionManager.cs" />
+    <Compile Include="Assets\Scripts\ScriptsSkyfall\RandomSpawner.cs" />
+    <Compile Include="Assets\Scripts\ScriptsAdvantage\AdvantageManager.cs" />
     <Compile Include="Assets\Scripts\ItemManager.cs" />
-    <Compile Include="Assets\Scripts\ItemCollector.cs" />
+    <Compile Include="Assets\Scripts\ScriptsSkyfall\VerqorSpawner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

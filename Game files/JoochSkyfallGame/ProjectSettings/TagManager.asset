@@ -12,6 +12,11 @@ TagManager:
   - Maiz
   - Chile
   - LVerqor
+  - RottenAguacate
+  - RottenCafe
+  - RottenJitomate
+  - RottenMaiz
+  - RottenChile
   layers:
   - Default
   - TransparentFX
