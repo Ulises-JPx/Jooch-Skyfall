@@ -1,50 +1,50 @@
-# Unity generated files within Game Files folder
-/Game Files/JoochSkyfallGame/[Ll]ibrary/
-/Game Files/JoochSkyfallGame/[Tt]emp/
-/Game Files/JoochSkyfallGame/[Oo]bj/
-/Game Files/JoochSkyfallGame/[Bb]uild/
-/Game Files/JoochSkyfallGame/[Bb]uilds/
-/Game Files/JoochSkyfallGame/[Ll]ogs/
-/Game Files/JoochSkyfallGame/[Uu]ser[Ss]ettings/
-/Game Files/JoochSkyfallGame/.vscode/
-/Game Files/JoochSkyfallGame/Assembly-CSharp.csproj
-/Game Files/JoochSkyfallGame/JoochSkyfallGame.sln
+# Unity generated files within Game files folder
+/Game files/JoochSkyfallGame/[Ll]ibrary/
+/Game files/JoochSkyfallGame/[Tt]emp/
+/Game files/JoochSkyfallGame/[Oo]bj/
+/Game files/JoochSkyfallGame/[Bb]uild/
+/Game files/JoochSkyfallGame/[Bb]uilds/
+/Game files/JoochSkyfallGame/[Ll]ogs/
+/Game files/JoochSkyfallGame/[Uu]ser[Ss]ettings/
+/Game files/JoochSkyfallGame/.vscode/
+/Game files/JoochSkyfallGame/Assembly-CSharp.csproj
+/Game files/JoochSkyfallGame/JoochSkyfallGame.sln
 
 # Builds
 /build/
-/Game Files/JoochSkyfallGame/build/
+/Game files/JoochSkyfallGame/build/
 
 # macOS
 .DS_Store
-/Game Files/JoochSkyfallGame/.DS_Store
+/Game files/JoochSkyfallGame/.DS_Store
 .AppleDouble
-/Game Files/JoochSkyfallGame/.AppleDouble
+/Game files/JoochSkyfallGame/.AppleDouble
 .LSOverride
-/Game Files/JoochSkyfallGame/.LSOverride
+/Game files/JoochSkyfallGame/.LSOverride
 
 # Thumbnails
 /._*
 
-# Files that might appear on external disk
+# files that might appear on external disk
 .Spotlight-V100
 .Trashes
-/Game Files/JoochSkyfallGame/.Spotlight-V100
-/Game Files/JoochSkyfallGame/.Trashes
+/Game files/JoochSkyfallGame/.Spotlight-V100
+/Game files/JoochSkyfallGame/.Trashes
 
 # Windows thumbnail cache files
 /Thumbs.db
 /ehthumbs.db
 /ehthumbs_vista.db
-/Game Files/JoochSkyfallGame/Thumbs.db
-/Game Files/JoochSkyfallGame/ehthumbs.db
-/Game Files/JoochSkyfallGame/ehthumbs_vista.db
+/Game files/JoochSkyfallGame/Thumbs.db
+/Game files/JoochSkyfallGame/ehthumbs.db
+/Game files/JoochSkyfallGame/ehthumbs_vista.db
 
 # Directories potentially created on remote AFP share
 /.AppleDB/
 /.AppleDesktop/
 /.TemporaryItems/
 /.apdisk
-/Game Files/JoochSkyfallGame/.AppleDB/
-/Game Files/JoochSkyfallGame/.AppleDesktop/
-/Game Files/JoochSkyfallGame/.TemporaryItems/
-/Game Files/JoochSkyfallGame/.apdisk
+/Game files/JoochSkyfallGame/.AppleDB/
+/Game files/JoochSkyfallGame/.AppleDesktop/
+/Game files/JoochSkyfallGame/.TemporaryItems/
+/Game files/JoochSkyfallGame/.apdisk
