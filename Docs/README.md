@@ -1,2 +1,0 @@
-# Docs
-Carpeta únicamente documentos importantes o archivos que no formen parte de la esctructura del proyecto,cada que se realize commit describir brevemente que se sube al repositorio, de preferencias separar el contenido.
