@@ -12,33 +12,58 @@ public class ItemCollector : MonoBehaviour
         if (collision.gameObject.CompareTag("Aguacate"))
         {
             Destroy(collision.gameObject);
-            Am.aguacateCount ++;
+            ItemManager.aguacateCount ++;
            
         }
         if (collision.gameObject.CompareTag("Cafe"))
         {
             Destroy(collision.gameObject);
-            Am.cafeCount ++;
+            ItemManager.cafeCount ++;
         }
         if (collision.gameObject.CompareTag("Jitomate"))
         {
             Destroy(collision.gameObject);
-            Am.jitomateCount ++;
+            ItemManager.jitomateCount ++;
         }
         if (collision.gameObject.CompareTag("Maiz"))
         {
             Destroy(collision.gameObject);
-            Am.maizCount ++;
+            ItemManager.maizCount ++;
         }
         if (collision.gameObject.CompareTag("Chile"))
         {
             Destroy(collision.gameObject);
-            Am.chileCount ++;
+            ItemManager.chileCount ++;
         }
         if (collision.gameObject.CompareTag("LVerqor"))
         {
             Destroy(collision.gameObject);
             Am.verqorCount ++;
+        }
+        if (collision.gameObject.CompareTag("RottenAguacate"))
+        {
+            Destroy(collision.gameObject);
+            ItemManager.aguacateCount --;
+        }
+        if (collision.gameObject.CompareTag("RottenCafe"))
+        {
+            Destroy(collision.gameObject);
+            ItemManager.cafeCount --;
+        }
+        if (collision.gameObject.CompareTag("RottenJitomate"))
+        {
+            Destroy(collision.gameObject);
+            ItemManager.jitomateCount --;
+        }
+        if (collision.gameObject.CompareTag("RottenMaiz"))
+        {
+            Destroy(collision.gameObject);
+            ItemManager.maizCount --;
+        }
+        if (collision.gameObject.CompareTag("RottenChile"))
+        {
+            Destroy(collision.gameObject);
+            ItemManager.chileCount --;
         }
     }
 

@@ -12,9 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuScene.unity
     guid: 083003ed163eea648b38c91772b21273
   - enabled: 1
+    path: Assets/Scenes/ElectionScene.unity
+    guid: 07ba8b3244951f543957cb3770402f9a
+  - enabled: 1
     path: Assets/Scenes/GameScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/TriviaScene.unity
     guid: 1cfe4dd94058c4a4d957ce1efc84ea0e
+  - enabled: 1
+    path: Assets/Scenes/AdvantageScene.unity
+    guid: 93885d6a0cbf6db479571e13a07cc794
   m_configObjects: {}
