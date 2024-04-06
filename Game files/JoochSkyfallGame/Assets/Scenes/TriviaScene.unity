@@ -177,15 +177,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.88032603, b: 0, a: 1}
+  m_Color: {r: 0.98490566, g: 0.9718975, b: 0.9718975, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: e1af43af56e17be40b6bd4e09f6f75d5, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -388,8 +388,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -522,8 +522,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -634,8 +634,8 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.909804, g: 0.86666673, b: 0, a: 1}
-    m_HighlightedColor: {r: 0.9811321, g: 0.6227435, b: 0, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.64630187, b: 0.028301716, a: 1}
     m_PressedColor: {r: 1, g: 0.46195462, b: 0.042452812, a: 1}
     m_SelectedColor: {r: 0.9803922, g: 0.62352943, b: 0, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -689,8 +689,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: f512945cbc48c524a9c2fb8272e8f140, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -798,8 +798,8 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.909804, g: 0.86666673, b: 0, a: 1}
-    m_HighlightedColor: {r: 0.9811321, g: 0.6227435, b: 0, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.64630187, b: 0.028301716, a: 1}
     m_PressedColor: {r: 1, g: 0.46195462, b: 0.042452812, a: 1}
     m_SelectedColor: {r: 0.9803922, g: 0.62352943, b: 0, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -853,8 +853,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: f512945cbc48c524a9c2fb8272e8f140, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -984,8 +984,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1086,15 +1086,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.61514264, b: 0, a: 0.6745098}
+  m_Color: {r: 0.97735846, g: 0.97239757, b: 0.96444994, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: f512945cbc48c524a9c2fb8272e8f140, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1534,23 +1534,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Question: Cuanto es 1 + 1??
+  - Question: "\xBFQu\xE9 son las siglas ESG en el contexto de la sostenibilidad?"
     Answers:
-    - 2
-    - 3
-    - 4
-    CorrectAnswer: 1
-  - Question: Como me llamo?
-    Answers:
-    - Juan
-    - Uriel
-    - Sebastian
+    - "Energ\xEDa Sustentable y Global"
+    - "Ecolog\xEDa y Sociedad Global"
+    - Ambiental, Social y de Gobernanza (ASG)
     CorrectAnswer: 3
-  - Question: Que color es el de la pregunta?
+  - Question: "Representa un cr\xE9dito bancario con t\xE9rminos claros y transparentes."
     Answers:
-    - Amarillo
-    - Naranja
-    - Verde
+    - Financiamiento formal
+    - Coyote
+    - Financiamiento informal
+    CorrectAnswer: 1
+  - Question: "\xBFCu\xE1l de las siguientes opciones ejemplifica un tipo de financiamiento
+      formal?"
+    Answers:
+    - "Obtener un pr\xE9stamo de un banco con t\xE9rminos claros y tasas de inter\xE9s
+      establecidas."
+    - "Pedir dinero prestado a un amigo sin un contrato formal ni t\xE9rminos claros."
+    - Obtener fondos de un prestamista de la comunidad sin documentos ni registros
+      formales.
+    CorrectAnswer: 1
+  - Question: "\xBFCu\xE1l de los siguientes NO es un financiamiento formal?"
+    Answers:
+    - "Solicitar un pr\xE9stamo a una instituci\xF3n financiera con un contrato detallado
+      y una tasa de inter\xE9s fija."
+    - Recibir fondos de un familiar con la expectativa de reembolsarlos sin formalidades.
+    - "Acceder a financiamiento a trav\xE9s de una plataforma en l\xEDnea con t\xE9rminos
+      y condiciones establecidos."
     CorrectAnswer: 2
   options:
   - {fileID: 2001214180}
@@ -1635,8 +1646,8 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.909804, g: 0.86666673, b: 0, a: 1}
-    m_HighlightedColor: {r: 0.9811321, g: 0.6227435, b: 0, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.64630187, b: 0.028301716, a: 1}
     m_PressedColor: {r: 1, g: 0.46195462, b: 0.042452812, a: 1}
     m_SelectedColor: {r: 0.9803922, g: 0.62352943, b: 0, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -1690,8 +1701,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: f512945cbc48c524a9c2fb8272e8f140, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4

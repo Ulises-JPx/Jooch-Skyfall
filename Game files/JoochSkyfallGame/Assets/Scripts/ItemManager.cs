@@ -22,7 +22,7 @@ public class ItemManager : MonoBehaviour
     public TextMeshProUGUI maizText;
     public static int chileCount = 0;
     public TextMeshProUGUI chileText;
-    public int verqorCount = 0;
+    public float verqorCount = 0;
     public TextMeshProUGUI verqorText;
 
     public TextMeshProUGUI deudaText; 

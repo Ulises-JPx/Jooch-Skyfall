@@ -13,7 +13,7 @@ public class AnswerScript : MonoBehaviour
 
             Debug.Log("Correct Answer");
             quizManager.correct();
-            SceneManager.LoadScene("GameScene");
+            SceneManager.LoadScene("AdvantageScene");
 
         }else{
 
