@@ -10,6 +10,7 @@ using UnityEngine.SceneManagement;
 
 public class ItemManager : MonoBehaviour
 {
+    [SerializeField] private GameObject EndingTransition;
     public static int verCoinsCount = 0;
     public TextMeshProUGUI verCoinsText;
     public static int aguacateCount = 0;
@@ -52,8 +53,15 @@ public class ItemManager : MonoBehaviour
     {
         if (verqorCount == 1)
         {
-            SceneManager.LoadScene("TriviaScene");
-            verqorCount = 0;
+            StartCoroutine(TransitionAndLoadScene());
         }
     }
+    IEnumerator TransitionAndLoadScene()
+{
+    EndingTransition.SetActive(true);
+    yield return new WaitForSeconds(3f); // Espera 3 segundos
+    SceneManager.LoadScene("TriviaScene");
+    verqorCount = 0;
+}
+    
 }

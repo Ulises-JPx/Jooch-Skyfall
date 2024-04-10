@@ -36,16 +36,16 @@ public class CartaDisplay : MonoBehaviour
         
         if (carta.nombrecarta == "Fortuna"){
             carta.VentajaFortuna();
-            SceneManager.LoadScene("GameScene");
+            SceneManager.LoadScene("RecapScene");
         }else if (carta.nombrecarta == "Fortuna2"){
             carta.VentajaFortuna2();
-            SceneManager.LoadScene("GameScene");
+            SceneManager.LoadScene("RecapScene");
         }else if (carta.nombrecarta == "Lluvia Diaria"){
             carta.VentajaLluviaDiaria();
-            SceneManager.LoadScene("GameScene");
+            SceneManager.LoadScene("RecapScene");
         }else if (carta.nombrecarta == "Pago Deuda"){
             carta.VentajaPagoDeuda();
-            SceneManager.LoadScene("GameScene");
+            SceneManager.LoadScene("RecapScene");
         }
 
 
