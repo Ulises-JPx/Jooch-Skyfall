@@ -32,16 +32,16 @@ public class CartaDVdisplay : MonoBehaviour
         arteCartaDv.sprite = cartaDv.arteCartaDv;  
     }
 
-    public void VentajasBoton(){
+    public void DesventajasBoton(){
         
-        if (cartaDv.nombrecartaDv == "Fortuna"){
-            
+        if (cartaDv.nombrecartaDv == "Siniestro De Helada"){
+            cartaDv.DesventajaSiniestroHelada();
             SceneManager.LoadScene("RecapScene");
-        }else if (cartaDv.nombrecartaDv == "Fortuna2"){
-            
+        }else if (cartaDv.nombrecartaDv == "Siniestro De Sequia"){
+            cartaDv.DesventajaSiniestroSequia();
             SceneManager.LoadScene("RecapScene");
-        }else if (cartaDv.nombrecartaDv == "Lluvia Diaria"){
-            
+        }else if (cartaDv.nombrecartaDv == "Enfermedad"){
+            cartaDv.DesventajaEnfermedad();
             SceneManager.LoadScene("RecapScene");
         }else if (cartaDv.nombrecartaDv == "Pago Deuda"){
             

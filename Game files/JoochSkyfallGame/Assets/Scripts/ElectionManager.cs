@@ -14,7 +14,7 @@ public class ElectionManager : MonoBehaviour
 
         TipoFinanciamiento = 1;
         deuda = 7000;
-        interes = 0.1f;
+        interes = 0.2f;
         SceneManager.LoadScene("GameScene");
         Debug.Log("Verqor" + deuda + interes);
 

@@ -216,6 +216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartingTransition: {fileID: 1604515581}
+  CorrectEndingTransition: {fileID: 0}
   preguntas:
   - {fileID: 11400000, guid: ede01efbce7c3654a845d34a93d99c5f, type: 2}
   - {fileID: 11400000, guid: a4513df70bdef1c41b96151276d6f7e8, type: 2}

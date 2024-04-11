@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33aeb9bd2c1c2ce488b56a0c09e7bc79, type: 3}
-  m_Name: Pago Deuda
+  m_Name: Venta Exitosa
   m_EditorClassIdentifier: 
-  nombrecarta: Pago Deuda
-  descripcionVentaja: Felicidades! Esta carta pagara una parte de tu deuda
-  ventajaVerqor: 1000
-  ventajaCoyote: 500
-  ventajaBanco: 780
-  arteCarta: {fileID: 0}
+  nombrecarta: Venta Exitosa
+  descripcionVentaja: Tu financiero te ha ayudado a vender tus estrategias agricolas
+  ventajaVerqor: + 1000 Vercoins
+  ventajaCoyote: + 1300 Vercoins
+  ventajaBanco: + 900 Vercoins
+  arteCarta: {fileID: 21300000, guid: 60f2b7aa5a6cb9645a0b58b689254c18, type: 3}

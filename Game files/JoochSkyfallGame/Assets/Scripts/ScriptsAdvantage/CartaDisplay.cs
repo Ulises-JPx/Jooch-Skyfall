@@ -34,20 +34,24 @@ public class CartaDisplay : MonoBehaviour
 
     public void VentajasBoton(){
         
-        if (carta.nombrecarta == "Fortuna"){
-            carta.VentajaFortuna();
+        if (carta.nombrecarta == "Comprador Nacional"){
+            carta.VentajaCompradorNacional();
             SceneManager.LoadScene("RecapScene");
-        }else if (carta.nombrecarta == "Fortuna2"){
-            carta.VentajaFortuna2();
+        }else if (carta.nombrecarta == "Nueva Certificacion"){
+            carta.VentajaNuevaCertificacion();
             SceneManager.LoadScene("RecapScene");
-        }else if (carta.nombrecarta == "Lluvia Diaria"){
-            carta.VentajaLluviaDiaria();
+        }else if (carta.nombrecarta == "Lluvia Moderada"){
+            carta.VentajaLluviaModerada();
             SceneManager.LoadScene("RecapScene");
-        }else if (carta.nombrecarta == "Pago Deuda"){
-            carta.VentajaPagoDeuda();
+        }else if (carta.nombrecarta == "Negociacion Inteligente"){
+            carta.VentajaNegociacionInteligente();
+            SceneManager.LoadScene("RecapScene");
+        }else if (carta.nombrecarta == "Reduccion de Deuda"){
+            carta.VentajaReduccionDeDeuda();
+            SceneManager.LoadScene("RecapScene");
+        }else if (carta.nombrecarta == "Venta Exitosa"){
+            carta.VentajaVentaExitosa();
             SceneManager.LoadScene("RecapScene");
         }
-
-
     }
 }

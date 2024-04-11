@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a27416c0d763704408efa41cd4ca84ec, type: 3}
+  m_Name: Enfermedad
+  m_EditorClassIdentifier: 
+  nombrecartaDv: Enfermedad
+  descripcionDesventaja: "Te has enfermado, debes pagar tus gastos m\xE9dicos."
+  desventajaVerqor: -1000
+  desventajaCoyote: -1100
+  desventajaBanco: -1200
+  arteCartaDv: {fileID: 21300000, guid: 0bec7926bc4f6cf40ba7344752f073bd, type: 3}

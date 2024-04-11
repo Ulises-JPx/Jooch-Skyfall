@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33aeb9bd2c1c2ce488b56a0c09e7bc79, type: 3}
-  m_Name: Lluvias Diarias
+  m_Name: Negociacion Inteligente
   m_EditorClassIdentifier: 
-  nombrecarta: Lluvia Diaria
-  descripcionVentaja: Felicidades, la lluvia cayo sobre tus cultivos. Aumenta tu
-    ganancia
-  ventajaVerqor: + 25% VerCoins
-  ventajaCoyote: + 15% VerCoins
-  ventajaBanco: + 18% VerCoins
-  arteCarta: {fileID: 0}
+  nombrecarta: Negociacion Inteligente
+  descripcionVentaja: "Felicidades, haz negociado con yu financiera y acordaron una
+    reducci\xF3n de inter\xE9s"
+  ventajaVerqor: -2% interes
+  ventajaCoyote: -1% interes
+  ventajaBanco: -1.8% interes
+  arteCarta: {fileID: 21300000, guid: 2943e176b50da2c4e88012c1deec5423, type: 3}
