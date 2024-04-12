@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class PreguntaDisplay : MonoBehaviour{
     [SerializeField] private GameObject StartingTransition;
+    [SerializeField] private GameObject CorrectEndingTransition;
     
     public static int correctas = 0;
     public static int incorrectas = 0;
@@ -35,7 +36,7 @@ public class PreguntaDisplay : MonoBehaviour{
     public void boton1(){
         if (preguntaQz.correcta ==1){
             correctas++;
-            SceneManager.LoadScene("AdvantageScene");
+            StartCoroutine(StartandTurnOffCorrectTransition());
               
         }else{
             incorrectas++;
@@ -45,7 +46,7 @@ public class PreguntaDisplay : MonoBehaviour{
     public void boton2(){
         if (preguntaQz.correcta ==2){
             correctas++;
-            SceneManager.LoadScene("AdvantageScene"); 
+            StartCoroutine(StartandTurnOffCorrectTransition());
         }else{
             incorrectas++;
             SceneManager.LoadScene("DisadvantageScene");
@@ -54,7 +55,7 @@ public class PreguntaDisplay : MonoBehaviour{
     public void boton3(){
         if (preguntaQz.correcta ==3){
             correctas++;
-            SceneManager.LoadScene("AdvantageScene");
+            StartCoroutine(StartandTurnOffCorrectTransition());
         }else{
             incorrectas++;
             SceneManager.LoadScene("DisadvantageScene");
@@ -64,6 +65,12 @@ public class PreguntaDisplay : MonoBehaviour{
     IEnumerator TurnoffTransition(){
         yield return new WaitForSeconds(3);
         StartingTransition.SetActive(false);
+    }
+
+    IEnumerator StartandTurnOffCorrectTransition(){
+        CorrectEndingTransition.SetActive(true);
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene("AdvantageScene");
     }
 
 }

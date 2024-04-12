@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class CartaDVdisplay : MonoBehaviour
 {
+    
     public List<CartaDV> cartasDv;
     public CartaDV cartaDv;
 

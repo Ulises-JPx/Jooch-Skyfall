@@ -133,11 +133,12 @@ GameObject:
   m_Component:
   - component: {fileID: 74921178}
   - component: {fileID: 74921177}
-  - component: {fileID: 74921174}
   - component: {fileID: 74921179}
   - component: {fileID: 74921180}
   - component: {fileID: 74921182}
   - component: {fileID: 74921181}
+  - component: {fileID: 74921183}
+  - component: {fileID: 74921184}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -145,24 +146,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &74921174
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 74921173}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d07a6023ce255b24cbcc211dc228313e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 74921182}
-  groundCheck: {fileID: 208446898}
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  tr: {fileID: 74921180}
 --- !u!212 &74921177
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -224,7 +207,7 @@ Transform:
   m_GameObject: {fileID: 74921173}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.1238, y: -3.0169, z: 0}
+  m_LocalPosition: {x: 0.46, y: -3.8, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -265,7 +248,7 @@ TrailRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -317,15 +300,15 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0.88311684, g: 0.14346743, b: 0.9811321, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
+      key0: {r: 0.8679245, g: 0.3988418, b: 0, a: 1}
+      key1: {r: 1, g: 0, b: 0.0479064, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
-      ctime0: 0
+      ctime0: 771
       ctime1: 65535
       ctime2: 0
       ctime3: 0
@@ -333,7 +316,7 @@ TrailRenderer:
       ctime5: 0
       ctime6: 0
       ctime7: 0
-      atime0: 0
+      atime0: 60524
       atime1: 65535
       atime2: 0
       atime3: 0
@@ -467,6 +450,46 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!95 &74921183
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74921173}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ecc12f90937a14d43865747de53c27ff, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &74921184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74921173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d07a6023ce255b24cbcc211dc228313e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 74921183}
+  rb: {fileID: 74921182}
+  groundCheck: {fileID: 208446898}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  tr: {fileID: 74921180}
 --- !u!1 &97328303
 GameObject:
   m_ObjectHideFlags: 0

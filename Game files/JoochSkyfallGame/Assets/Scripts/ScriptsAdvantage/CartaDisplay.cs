@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class CartaDisplay : MonoBehaviour
 {
+    [SerializeField] private GameObject StartingTransition;
     public List<CartaV> cartas;
     public CartaV carta;
 
@@ -18,7 +19,8 @@ public class CartaDisplay : MonoBehaviour
     public Image arteCarta;
     void Start()
     {
-         generateCard();
+        StartCoroutine(TurnoffTransition());
+        generateCard();
     }
 
     public void generateCard(){
@@ -54,4 +56,11 @@ public class CartaDisplay : MonoBehaviour
             SceneManager.LoadScene("RecapScene");
         }
     }
+
+    IEnumerator TurnoffTransition()
+    {
+        yield return new WaitForSeconds(3f);
+        StartingTransition.SetActive(false);
+    }
+    
 }
