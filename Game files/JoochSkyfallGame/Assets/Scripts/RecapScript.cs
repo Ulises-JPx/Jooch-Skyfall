@@ -4,6 +4,8 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Unity.VisualScripting;
+using System;
 public class RecapScript : MonoBehaviour
 {
     public static float calculoVercoins;
@@ -32,11 +34,11 @@ public class RecapScript : MonoBehaviour
     void Update()
     {
         cicloText.text = "Ciclo: " + numCiclo;
-        precioMaizText.text = "$" + precioMaiz;
-        precioChileText.text = "$ " + precioChile;
-        precioJitomateText.text = "$ " + precioJitomate;
-        precioAguacateText.text = "$ " + precioAguacate;
-        precioCafeText.text = "$ " + precioCafe;
+        precioMaizText.text = "$" + Math.Round(precioMaiz, 2);
+        precioChileText.text = "$ " + Math.Round(precioChile, 2);
+        precioJitomateText.text = "$ " + Math.Round(precioJitomate, 2);
+        precioAguacateText.text = "$ " + Math.Round(precioAguacate, 2);
+        precioCafeText.text = "$ " + Math.Round(precioCafe, 2);
         verCoinsCount.text = "$" + ItemManager.verCoinsCount;
         deuda.text = "$" + ElectionManager.deuda;
     }
