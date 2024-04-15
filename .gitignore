@@ -24,6 +24,7 @@
 
 # Thumbnails
 /._*
+**/*.meta
 
 # files that might appear on external disk
 .Spotlight-V100
