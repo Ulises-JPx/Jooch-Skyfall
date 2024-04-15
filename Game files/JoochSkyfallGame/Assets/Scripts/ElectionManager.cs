@@ -14,7 +14,7 @@ public class ElectionManager : MonoBehaviour
 
         TipoFinanciamiento = 1;
         deuda = 7000;
-        interes = 0.2f;
+        interes = 20f;
         SceneManager.LoadScene("GameScene");
         Debug.Log("Verqor" + deuda + interes);
 
@@ -24,7 +24,7 @@ public class ElectionManager : MonoBehaviour
 
         TipoFinanciamiento = 2; 
         deuda = 10000;
-        interes = 0.4f;
+        interes = 40f;
         SceneManager.LoadScene("GameScene");
         Debug.Log("Coyote" + deuda + interes);
 
@@ -33,7 +33,7 @@ public class ElectionManager : MonoBehaviour
 
         TipoFinanciamiento = 3;
         deuda = 8000;
-        interes = 0.2f;
+        interes = 25f;
         SceneManager.LoadScene("GameScene");
         Debug.Log("Banco" + deuda + interes);
 

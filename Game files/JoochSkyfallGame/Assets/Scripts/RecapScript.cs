@@ -9,6 +9,8 @@ using System;
 public class RecapScript : MonoBehaviour
 {
     public static float calculoVercoins;
+    public static float vercoinsVentaTEMP;
+    public TextMeshProUGUI vercoinsVentaTempText;
     public static int numCiclo = 1;
     public TextMeshProUGUI cicloText;
     public static float precioMaiz = 20;
@@ -23,11 +25,12 @@ public class RecapScript : MonoBehaviour
     public TextMeshProUGUI precioCafeText;
     public TextMeshProUGUI verCoinsCount;
     public TextMeshProUGUI deuda;
+    public TextMeshProUGUI interes;
+
     // Start is called before the first frame update
     void Start()
     {
         CalculoVercoins();
-        resetCounts();
     }
 
     // Update is called once per frame
@@ -41,6 +44,9 @@ public class RecapScript : MonoBehaviour
         precioCafeText.text = "$ " + Math.Round(precioCafe, 2);
         verCoinsCount.text = "$" + ItemManager.verCoinsCount;
         deuda.text = "$" + ElectionManager.deuda;
+        vercoinsVentaTempText.text = "$" + vercoinsVentaTEMP;
+        interes.text = "" + ElectionManager.interes + "%";
+
     }
 
     public void CalculoVercoins(){
@@ -51,11 +57,13 @@ public class RecapScript : MonoBehaviour
         float cuentaCafe = ItemManager.cafeCount * precioCafe;
 
         ItemManager.verCoinsCount = (int)(ItemManager.verCoinsCount + cuentaMaiz + cuentaChile + cuentaJitomate + cuentaAguacate + cuentaCafe);
+        vercoinsVentaTEMP = (int)(cuentaMaiz + cuentaChile + cuentaJitomate + cuentaAguacate + cuentaCafe);
 
     }
     public void RegresoASkyfall(){
         SceneManager.LoadScene("GameScene");
         numCiclo++;
+        resetCounts();
     }
 
     public void resetCounts(){
@@ -64,6 +72,7 @@ public class RecapScript : MonoBehaviour
         ItemManager.jitomateCount = 0;
         ItemManager.aguacateCount = 0;
         ItemManager.cafeCount = 0;
+        vercoinsVentaTEMP = 0;
     }
 
 }
