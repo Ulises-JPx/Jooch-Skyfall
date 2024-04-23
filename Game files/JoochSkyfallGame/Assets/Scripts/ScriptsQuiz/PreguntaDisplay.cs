@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 
 public class PreguntaDisplay : MonoBehaviour{
     [SerializeField] private GameObject StartingTransition;
@@ -18,7 +19,9 @@ public class PreguntaDisplay : MonoBehaviour{
     public TextMeshProUGUI opc2Texto;
     public TextMeshProUGUI opc3Texto;
 
-    
+    private int contadorPreguntas = 0; // Nuevo contador de preguntas
+    private const int limitePreguntas = 3; // Límite de preguntas por ronda
+
     void Start()
     {
         preguntas = new List<PreguntaSO>(Resources.LoadAll<PreguntaSO>("Preguntas"));
@@ -38,30 +41,53 @@ public class PreguntaDisplay : MonoBehaviour{
     public void boton1(){
         if (preguntaQz.correcta == 1){
             correctas++;
-            StartCoroutine(StartandTurnOffCorrectTransition());
-              
+            Debug.Log("Correcta");
         }else{
             incorrectas++;
-            SceneManager.LoadScene("DisadvantageScene");
+            Debug.Log("Incorrecta");
         }
+        verificarPreguntas();
     }
     public void boton2(){
         if (preguntaQz.correcta == 2){
             correctas++;
-            StartCoroutine(StartandTurnOffCorrectTransition());
-        }else{
-            incorrectas++;
-            SceneManager.LoadScene("DisadvantageScene");
+            Debug.Log("Correcta");
         }
+        else{
+            incorrectas++;
+            Debug.Log("Incorrecta");
+        }
+        verificarPreguntas();
     }
     public void boton3(){
         if (preguntaQz.correcta == 3){
             correctas++;
-            StartCoroutine(StartandTurnOffCorrectTransition());
-        }else{
-            incorrectas++;
-            SceneManager.LoadScene("DisadvantageScene");
+            Debug.Log("Correcta");
         }
+        else{
+            incorrectas++;
+            Debug.Log("Incorrecta");
+        }
+        verificarPreguntas();
+    }
+
+    private void verificarPreguntas() {
+        contadorPreguntas++;
+        Debug.Log("Correctas: " + correctas + "\nIncorrcetas: " + incorrectas);
+        if (contadorPreguntas >= limitePreguntas) {
+            if (correctas >= 2) {
+                StartCoroutine(StartandTurnOffCorrectTransition());
+            } else {
+                SceneManager.LoadScene("DisadvantageScene");
+            }
+        } else {
+            generateQuestion();
+            ResetButtonStates();
+        }
+    }
+    private void ResetButtonStates()
+    {
+        EventSystem.current.SetSelectedGameObject(null);
     }
 
     IEnumerator TurnoffTransition(){
