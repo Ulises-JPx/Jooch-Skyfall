@@ -25,7 +25,7 @@ public class VerqorSpawner : MonoBehaviour
         x = Random.Range(minX, maxX);
         y = Random.Range(minY, maxY); 
         GameObject spawnedObject = Instantiate(RainingVerqor, transform.position + new UnityEngine.Vector3(x,y,0), transform.rotation);
-        Destroy(spawnedObject, 7f);
+        
     }
 
 }

@@ -35,11 +35,6 @@ public class ItemCollector : MonoBehaviour
             Destroy(collision.gameObject);
             ItemManager.chileCount ++;
         }
-        if (collision.gameObject.CompareTag("LVerqor"))
-        {
-            Destroy(collision.gameObject);
-            Am.verqorCount ++;
-        }
         if (collision.gameObject.CompareTag("RottenAguacate"))
         {
             Destroy(collision.gameObject);
@@ -66,6 +61,12 @@ public class ItemCollector : MonoBehaviour
             ItemManager.chileCount --;
         }
     }
-
+    private void OnCollisionEnter2D(Collision2D collision){
+        if (collision.gameObject.CompareTag("LVerqor"))
+        {
+            Destroy(collision.gameObject);
+            Am.verqorCount ++;
+        }
+    }
     
 }
