@@ -18,6 +18,8 @@ public class PreguntaDisplay : MonoBehaviour{
     public TextMeshProUGUI opc1Texto;
     public TextMeshProUGUI opc2Texto;
     public TextMeshProUGUI opc3Texto;
+    public TextMeshProUGUI textoCorrectas;
+    public TextMeshProUGUI textoIncorrectas;
 
     private int contadorPreguntas = 0; // Nuevo contador de preguntas
     private const int limitePreguntas = 3; // Límite de preguntas por ronda
@@ -42,9 +44,11 @@ public class PreguntaDisplay : MonoBehaviour{
         if (preguntaQz.correcta == 1){
             correctas++;
             Debug.Log("Correcta");
+            textoCorrectas.text = correctas.ToString(); // Actualiza el texto
         }else{
             incorrectas++;
             Debug.Log("Incorrecta");
+            textoIncorrectas.text = incorrectas.ToString(); // Actualiza el texto
         }
         verificarPreguntas();
     }
@@ -52,10 +56,11 @@ public class PreguntaDisplay : MonoBehaviour{
         if (preguntaQz.correcta == 2){
             correctas++;
             Debug.Log("Correcta");
-        }
-        else{
+            textoCorrectas.text = correctas.ToString(); // Actualiza el texto
+        }else{
             incorrectas++;
             Debug.Log("Incorrecta");
+            textoIncorrectas.text = incorrectas.ToString(); // Actualiza el texto
         }
         verificarPreguntas();
     }
@@ -63,10 +68,11 @@ public class PreguntaDisplay : MonoBehaviour{
         if (preguntaQz.correcta == 3){
             correctas++;
             Debug.Log("Correcta");
-        }
-        else{
+            textoCorrectas.text = correctas.ToString(); // Actualiza el texto
+        }else{
             incorrectas++;
             Debug.Log("Incorrecta");
+            textoIncorrectas.text = incorrectas.ToString(); // Actualiza el texto
         }
         verificarPreguntas();
     }
