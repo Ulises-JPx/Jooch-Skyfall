@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f365af592b20a4d8426b425330d579, type: 3}
+  m_Name: 6
+  m_EditorClassIdentifier: 
+  id: 6
+  pregunta: "\xBFCu\xE1l opci\xF3n representa una ayuda gubernamental en forma de
+    insumos para cultivo?"
+  opc1: Ayuda en marketing y publicidad
+  opc2: Apoyo especie
+  opc3: "Apoyo econ\xF3mico"
+  correcta: 2

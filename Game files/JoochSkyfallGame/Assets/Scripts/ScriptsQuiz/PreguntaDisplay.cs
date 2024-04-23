@@ -21,9 +21,11 @@ public class PreguntaDisplay : MonoBehaviour{
     
     void Start()
     {
+        preguntas = new List<PreguntaSO>(Resources.LoadAll<PreguntaSO>("Preguntas"));
         StartCoroutine(TurnoffTransition());
         generateQuestion();
     }
+    
     public void generateQuestion(){
         preguntaQz = preguntas[Random.Range(0, preguntas.Count)];
         
@@ -34,7 +36,7 @@ public class PreguntaDisplay : MonoBehaviour{
 
     }
     public void boton1(){
-        if (preguntaQz.correcta ==1){
+        if (preguntaQz.correcta == 1){
             correctas++;
             StartCoroutine(StartandTurnOffCorrectTransition());
               
@@ -44,7 +46,7 @@ public class PreguntaDisplay : MonoBehaviour{
         }
     }
     public void boton2(){
-        if (preguntaQz.correcta ==2){
+        if (preguntaQz.correcta == 2){
             correctas++;
             StartCoroutine(StartandTurnOffCorrectTransition());
         }else{
@@ -53,7 +55,7 @@ public class PreguntaDisplay : MonoBehaviour{
         }
     }
     public void boton3(){
-        if (preguntaQz.correcta ==3){
+        if (preguntaQz.correcta == 3){
             correctas++;
             StartCoroutine(StartandTurnOffCorrectTransition());
         }else{

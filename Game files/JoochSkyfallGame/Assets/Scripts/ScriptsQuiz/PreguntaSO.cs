@@ -1,11 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "NuevaPregunta", menuName = "Pregunta")]    
 public class PreguntaSO : ScriptableObject{
 
-    public string nombre;
+    public int id;
     public string pregunta;
     public string opc1;
     public string opc2;
