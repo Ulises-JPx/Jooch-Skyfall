@@ -17,7 +17,7 @@ public class CsvToPreguntaSO : MonoBehaviour
             int counter = 1;
             foreach (var record in records)
             {
-                string assetPath = $"Assets/Preguntas/{counter}.asset";
+                string assetPath = $"Assets/Resources/Preguntas/{counter}.asset";
                 PreguntaSO pregunta = AssetDatabase.LoadAssetAtPath<PreguntaSO>(assetPath);
 
                 if (pregunta == null)

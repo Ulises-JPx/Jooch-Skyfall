@@ -10,7 +10,12 @@
 /Game files/JoochSkyfallGame/Assembly-CSharp.csproj
 /Game files/JoochSkyfallGame/JoochSkyfallGame.sln
 
+
+# PreguntasSO
+/Resources/Preguntas/*.asset
+
 # Builds
+*.meta
 /build/
 /Game files/JoochSkyfallGame/build/
 
