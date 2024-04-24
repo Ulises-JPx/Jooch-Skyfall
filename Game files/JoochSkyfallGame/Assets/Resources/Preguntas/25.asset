@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f365af592b20a4d8426b425330d579, type: 3}
   m_Name: 25
   m_EditorClassIdentifier: 
-  id: 0
-  pregunta: 
-  opc1: 
-  opc2: 
-  opc3: 
-  correcta: 0
+  SO_Id: 25
+  SO_Pregunta: "\xBFPor qu\xE9 es fundamental para un agricultor contar con un seguro
+    agr\xEDcola?"
+  SO_Op1: "Para obtener descuentos en la compra de insumos agr\xEDcolas."
+  SO_Op2: "Para protegerse contra posibles p\xE9rdidas financieras ocasionadas por
+    eventos clim\xE1ticos adversos, enfermedades de los cultivos o desastres naturales."
+  SO_Op3: "Para obtener un acceso m\xE1s f\xE1cil al mercado y poder tener mayor
+    productividad en las ventas."
+  SO_Correcta: 2

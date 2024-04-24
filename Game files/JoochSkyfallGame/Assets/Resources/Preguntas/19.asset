@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f365af592b20a4d8426b425330d579, type: 3}
   m_Name: 19
   m_EditorClassIdentifier: 
-  id: 0
-  pregunta: 
-  opc1: 
-  opc2: 
-  opc3: 
-  correcta: 0
+  SO_Id: 19
+  SO_Pregunta: "\xBFQu\xE9 aspecto fundamental aborda la trazabilidad de la cadena
+    de suministro?"
+  SO_Op1: La capacidad de mantener la confidencialidad de los datos de la cadena
+    de suministro.
+  SO_Op2: "La capacidad de producir bienes de manera r\xE1pida y eficiente, de manera
+    ordenada y planeada."
+  SO_Op3: "La capacidad de rastrear el origen y el recorrido de los materiales utilizados
+    en un producto o servicio, desde su extracci\xF3n hasta su destino final."
+  SO_Correcta: 3

@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f365af592b20a4d8426b425330d579, type: 3}
   m_Name: 4
   m_EditorClassIdentifier: 
-  id: 0
-  pregunta: 
-  opc1: 
-  opc2: 
-  opc3: 
-  correcta: 0
+  SO_Id: 4
+  SO_Pregunta: "\xBFCu\xE1l de los siguientes NO es un financiamiento formal?"
+  SO_Op1: "Solicitar un pr\xE9stamo a una instituci\xF3n financiera con un contrato
+    detallado y una tasa de inter\xE9s fija."
+  SO_Op2: Recibir fondos de un familiar con la expectativa de reembolsarlos sin formalidades.
+  SO_Op3: "Acceder a financiamiento a trav\xE9s de una plataforma en l\xEDnea con
+    t\xE9rminos y condiciones establecidos."
+  SO_Correcta: 2

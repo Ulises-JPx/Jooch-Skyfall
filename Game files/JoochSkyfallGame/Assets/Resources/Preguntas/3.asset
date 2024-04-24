@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f365af592b20a4d8426b425330d579, type: 3}
   m_Name: 3
   m_EditorClassIdentifier: 
-  id: 0
-  pregunta: 
-  opc1: 
-  opc2: 
-  opc3: 
-  correcta: 0
+  SO_Id: 3
+  SO_Pregunta: "\xBFCu\xE1l de las siguientes opciones ejemplifica un tipo de financiamiento
+    formal?"
+  SO_Op1: "Obtener un pr\xE9stamo de un banco con t\xE9rminos claros y tasas de inter\xE9s
+    establecidas."
+  SO_Op2: "Pedir dinero prestado a un amigo sin un contrato formal ni t\xE9rminos
+    claros."
+  SO_Op3: Obtener fondos de un prestamista de la comunidad sin documentos ni registros
+    formales.
+  SO_Correcta: 1

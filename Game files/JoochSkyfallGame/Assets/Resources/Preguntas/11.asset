@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f365af592b20a4d8426b425330d579, type: 3}
   m_Name: 11
   m_EditorClassIdentifier: 
-  id: 0
-  pregunta: 
-  opc1: 
-  opc2: 
-  opc3: 
-  correcta: 0
+  SO_Id: 11
+  SO_Pregunta: "\xBFQu\xE9 es una parcela en agricultura?"
+  SO_Op1: Cultivo
+  SO_Op2: Superficie de tierra donde se siembra, crece y cosecha el cultivo
+  SO_Op3: Superficie de tierra utilizada para pastoreo de ganado
+  SO_Correcta: 2

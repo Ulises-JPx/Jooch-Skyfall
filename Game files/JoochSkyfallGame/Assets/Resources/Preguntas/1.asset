@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f365af592b20a4d8426b425330d579, type: 3}
   m_Name: 1
   m_EditorClassIdentifier: 
-  id: 0
-  pregunta: 
-  opc1: 
-  opc2: 
-  opc3: 
-  correcta: 0
+  SO_Id: 1
+  SO_Pregunta: "\xBFQu\xE9 son las siglas ASG en el contexto de la sostenibilidad?"
+  SO_Op1: Amigable, Sustentable y Global
+  SO_Op2: Agricultura, Salud y Gobernanza
+  SO_Op3: Ambiental, Social y Gobernanza
+  SO_Correcta: 3

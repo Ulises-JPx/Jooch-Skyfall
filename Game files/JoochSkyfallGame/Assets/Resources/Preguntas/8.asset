@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f365af592b20a4d8426b425330d579, type: 3}
   m_Name: 8
   m_EditorClassIdentifier: 
-  id: 0
-  pregunta: 
-  opc1: 
-  opc2: 
-  opc3: 
-  correcta: 0
+  SO_Id: 8
+  SO_Pregunta: "\xBFQu\xE9 significa \"agricultura protegida\"?"
+  SO_Op1: "Agricultura con protecci\xF3n policial"
+  SO_Op2: Agricultura con invernaderos
+  SO_Op3: Agricultura con seguros de vida para los agricultores
+  SO_Correcta: 2

@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f365af592b20a4d8426b425330d579, type: 3}
   m_Name: 17
   m_EditorClassIdentifier: 
-  id: 0
-  pregunta: 
-  opc1: 
-  opc2: 
-  opc3: 
-  correcta: 0
+  SO_Id: 17
+  SO_Pregunta: "\xBFQu\xE9 pr\xE1ctica agr\xEDcola mejora la salud del suelo y la
+    biodiversidad mediante rotaci\xF3n de cultivos y cultivos de cobertura?"
+  SO_Op1: Agricultura regenerativa
+  SO_Op2: Agricultura convencional
+  SO_Op3: Agricultura industrial
+  SO_Correcta: 1

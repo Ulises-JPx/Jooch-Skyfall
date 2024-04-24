@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f365af592b20a4d8426b425330d579, type: 3}
   m_Name: 26
   m_EditorClassIdentifier: 
-  id: 0
-  pregunta: 
-  opc1: 
-  opc2: 
-  opc3: 
-  correcta: 0
+  SO_Id: 26
+  SO_Pregunta: "\xBFQu\xE9 pr\xE1ctica es com\xFAn en la agricultura regenerativa
+    para mejorar la salud del suelo?"
+  SO_Op1: Uso intensivo de pesticidas
+  SO_Op2: Monocultivo
+  SO_Op3: "Rotaci\xF3n de cultivos"
+  SO_Correcta: 3

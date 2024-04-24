@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f365af592b20a4d8426b425330d579, type: 3}
   m_Name: 20
   m_EditorClassIdentifier: 
-  id: 0
-  pregunta: 
-  opc1: 
-  opc2: 
-  opc3: 
-  correcta: 0
+  SO_Id: 20
+  SO_Pregunta: "\xBFQu\xE9 tipo de productos se consideran agroinsumos?"
+  SO_Op1: "Productos electr\xF3nicos utilizados en la agricultura para la mejora
+    de productividad."
+  SO_Op2: "Todos los consumibles utilizados en el proceso productivo agr\xEDcola,
+    como fertilizantes, agroqu\xEDmicos y equipos."
+  SO_Op3: "Suministros m\xE9dicos utilizados en la agricultura."
+  SO_Correcta: 2

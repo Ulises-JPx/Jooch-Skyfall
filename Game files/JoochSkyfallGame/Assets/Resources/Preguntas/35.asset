@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f365af592b20a4d8426b425330d579, type: 3}
   m_Name: 35
   m_EditorClassIdentifier: 
-  id: 0
-  pregunta: 
-  opc1: 
-  opc2: 
-  opc3: 
-  correcta: 0
+  SO_Id: 35
+  SO_Pregunta: "\xBFVacio?"
+  SO_Op1: Pastoreo intensivo
+  SO_Op2: Pastoreo planificado
+  SO_Op3: Uso libre sin restricciones
+  SO_Correcta: 2

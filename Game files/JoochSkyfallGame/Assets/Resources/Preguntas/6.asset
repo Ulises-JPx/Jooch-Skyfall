@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f365af592b20a4d8426b425330d579, type: 3}
   m_Name: 6
   m_EditorClassIdentifier: 
-  id: 0
-  pregunta: 
-  opc1: 
-  opc2: 
-  opc3: 
-  correcta: 0
+  SO_Id: 6
+  SO_Pregunta: "\xBFCu\xE1l opci\xF3n representa una ayuda gubernamental en forma
+    de insumos para cultivo?"
+  SO_Op1: Ayuda en marketing y publicidad
+  SO_Op2: Apoyo especie
+  SO_Op3: "Apoyo econ\xF3mico"
+  SO_Correcta: 2

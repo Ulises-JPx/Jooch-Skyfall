@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f365af592b20a4d8426b425330d579, type: 3}
   m_Name: 29
   m_EditorClassIdentifier: 
-  id: 0
-  pregunta: 
-  opc1: 
-  opc2: 
-  opc3: 
-  correcta: 0
+  SO_Id: 29
+  SO_Pregunta: "T\xE9cnica de agricultura regenerativa para incrementar materia org\xE1nica"
+  SO_Op1: "Labranza m\xEDnima"
+  SO_Op2: "Fertilizantes qu\xEDmicos"
+  SO_Op3: Pesticidas intensivos
+  SO_Correcta: 1

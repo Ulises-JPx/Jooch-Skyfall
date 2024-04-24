@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f365af592b20a4d8426b425330d579, type: 3}
   m_Name: 14
   m_EditorClassIdentifier: 
-  id: 0
-  pregunta: 
-  opc1: 
-  opc2: 
-  opc3: 
-  correcta: 0
+  SO_Id: 14
+  SO_Pregunta: "\xBFQu\xE9 es el riego en agricultura?"
+  SO_Op1: "Acci\xF3n de recolectar agua de lluvia para uso agr\xEDcola"
+  SO_Op2: "Acci\xF3n de hidratar la tierra para promover el crecimiento de la producci\xF3n"
+  SO_Op3: "Acci\xF3n de hidratar la tierra para promover el crecimiento de la producci\xF3n
+    mediante diferentes m\xE9todos como aspersi\xF3n, goteo o drones"
+  SO_Correcta: 3

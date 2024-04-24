@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f365af592b20a4d8426b425330d579, type: 3}
   m_Name: 27
   m_EditorClassIdentifier: 
-  id: 0
-  pregunta: 
-  opc1: 
-  opc2: 
-  opc3: 
-  correcta: 0
+  SO_Id: 27
+  SO_Pregunta: "\xBFQu\xE9 objetivo tiene la agricultura regenerativa respecto al
+    medio ambiente?"
+  SO_Op1: "Maximizar el uso de agroqu\xEDmicos"
+  SO_Op2: Secuestrar carbono y restaurar ecosistemas
+  SO_Op3: "Aumentar la producci\xF3n a corto plazo"
+  SO_Correcta: 2

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f365af592b20a4d8426b425330d579, type: 3}
   m_Name: 13
   m_EditorClassIdentifier: 
-  id: 0
-  pregunta: 
-  opc1: 
-  opc2: 
-  opc3: 
-  correcta: 0
+  SO_Id: 13
+  SO_Pregunta: "\xBFQu\xE9 es el rendimiento en agricultura?"
+  SO_Op1: "Cantidad de masa producida por \xE1rea de tierra"
+  SO_Op2: Cantidad de tierra utilizada para cultivar
+  SO_Op3: Cantidad de agua utilizada para riego
+  SO_Correcta: 1

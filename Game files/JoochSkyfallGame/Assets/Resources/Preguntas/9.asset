@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f365af592b20a4d8426b425330d579, type: 3}
   m_Name: 9
   m_EditorClassIdentifier: 
-  id: 0
-  pregunta: 
-  opc1: 
-  opc2: 
-  opc3: 
-  correcta: 0
+  SO_Id: 9
+  SO_Pregunta: "\xBFQu\xE9 son los insumos org\xE1nicos en agricultura?"
+  SO_Op1: "Insumos procesados con componentes sint\xE9ticos"
+  SO_Op2: "Insumos producidos en laboratorios con tecnolog\xEDa de vanguardia"
+  SO_Op3: "Insumos procesados a partir de componentes naturales con contenido limitado
+    de qu\xEDmicos sint\xE9ticos"
+  SO_Correcta: 3

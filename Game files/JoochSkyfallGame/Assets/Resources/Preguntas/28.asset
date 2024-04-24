@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f365af592b20a4d8426b425330d579, type: 3}
   m_Name: 28
   m_EditorClassIdentifier: 
-  id: 0
-  pregunta: 
-  opc1: 
-  opc2: 
-  opc3: 
-  correcta: 0
+  SO_Id: 28
+  SO_Pregunta: "\xBFCu\xE1l es una caracter\xEDstica distintiva de la agricultura
+    tradicional?"
+  SO_Op1: Promueve la biodiversidad
+  SO_Op2: "Se enfoca en la producci\xF3n a corto plazo"
+  SO_Op3: "Reduce el uso de fertilizantes sint\xE9ticos"
+  SO_Correcta: 2

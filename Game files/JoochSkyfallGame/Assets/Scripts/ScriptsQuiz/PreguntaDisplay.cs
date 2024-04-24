@@ -11,8 +11,8 @@ public class PreguntaDisplay : MonoBehaviour{
     
     public static int correctas = 0;
     public static int incorrectas = 0;
-    public List<PreguntaSO> preguntas;
-    public PreguntaSO preguntaQz;
+    public static List<PreguntaSO> preguntas;
+    public static PreguntaSO preguntaQz;
 
     public TextMeshProUGUI preguntaTexto;
     public TextMeshProUGUI opc1Texto;
@@ -34,14 +34,14 @@ public class PreguntaDisplay : MonoBehaviour{
     public void generateQuestion(){
         preguntaQz = preguntas[Random.Range(0, preguntas.Count)];
         
-        preguntaTexto.text = preguntaQz.pregunta;
-        opc1Texto.text = preguntaQz.opc1;
-        opc2Texto.text = preguntaQz.opc2;
-        opc3Texto.text = preguntaQz.opc3;
+        preguntaTexto.text = preguntaQz.SO_Pregunta;
+        opc1Texto.text = preguntaQz.SO_Op1;
+        opc2Texto.text = preguntaQz.SO_Op2;
+        opc3Texto.text = preguntaQz.SO_Op3;
 
     }
     public void boton1(){
-        if (preguntaQz.correcta == 1){
+        if (preguntaQz.SO_Correcta == 1){
             correctas++;
             Debug.Log("Correcta");
             textoCorrectas.text = correctas.ToString(); // Actualiza el texto
@@ -53,7 +53,7 @@ public class PreguntaDisplay : MonoBehaviour{
         verificarPreguntas();
     }
     public void boton2(){
-        if (preguntaQz.correcta == 2){
+        if (preguntaQz.SO_Correcta == 2){
             correctas++;
             Debug.Log("Correcta");
             textoCorrectas.text = correctas.ToString(); // Actualiza el texto
@@ -65,7 +65,7 @@ public class PreguntaDisplay : MonoBehaviour{
         verificarPreguntas();
     }
     public void boton3(){
-        if (preguntaQz.correcta == 3){
+        if (preguntaQz.SO_Correcta == 3){
             correctas++;
             Debug.Log("Correcta");
             textoCorrectas.text = correctas.ToString(); // Actualiza el texto
@@ -86,6 +86,8 @@ public class PreguntaDisplay : MonoBehaviour{
             } else {
                 SceneManager.LoadScene("DisadvantageScene");
             }
+            correctas = 0;
+            incorrectas = 0;
         } else {
             generateQuestion();
             ResetButtonStates();

@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f365af592b20a4d8426b425330d579, type: 3}
   m_Name: 10
   m_EditorClassIdentifier: 
-  id: 0
-  pregunta: 
-  opc1: 
-  opc2: 
-  opc3: 
-  correcta: 0
+  SO_Id: 10
+  SO_Pregunta: "\xBFQu\xE9 es la maquinaria agr\xEDcola?"
+  SO_Op1: "Herramienta de trabajo utilizada en diferentes etapas del proceso agr\xEDcola,
+    como preparaci\xF3n de tierra, cosecha y transporte."
+  SO_Op2: Transporte utilizado en el campo
+  SO_Op3: Maquinaria Industrial
+  SO_Correcta: 1

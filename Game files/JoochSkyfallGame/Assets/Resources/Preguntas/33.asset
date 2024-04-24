@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f365af592b20a4d8426b425330d579, type: 3}
   m_Name: 33
   m_EditorClassIdentifier: 
-  id: 0
-  pregunta: 
-  opc1: 
-  opc2: 
-  opc3: 
-  correcta: 0
+  SO_Id: 33
+  SO_Pregunta: "\xBFC\xF3mo afecta la agricultura tradicional al medio ambiente?"
+  SO_Op1: Mejora la calidad del suelo a largo plazo
+  SO_Op2: "Contribuye a la deforestaci\xF3n y la p\xE9rdida de biodiversidad"
+  SO_Op3: Disminuye la dependencia de fertilizantes
+  SO_Correcta: 2
