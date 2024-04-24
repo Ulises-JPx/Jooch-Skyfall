@@ -51,7 +51,7 @@ public class ItemManager : MonoBehaviour
 
     void VerqorChange()
     {
-        if (verqorCount == 1)
+        if (verqorCount == 5)
         {
             StartCoroutine(TransitionAndLoadScene());
         }
