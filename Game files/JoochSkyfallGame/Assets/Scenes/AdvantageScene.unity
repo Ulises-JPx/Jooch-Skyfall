@@ -1566,7 +1566,7 @@ GameObject:
   - component: {fileID: 541689267}
   - component: {fileID: 541689266}
   m_Layer: 5
-  m_Name: Carta (1)
+  m_Name: CartaV_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2724,7 +2724,7 @@ GameObject:
   - component: {fileID: 1099675460}
   - component: {fileID: 1099675462}
   m_Layer: 5
-  m_Name: Carta
+  m_Name: CartaV_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4115,7 +4115,7 @@ GameObject:
   - component: {fileID: 1792868149}
   - component: {fileID: 1792868148}
   m_Layer: 5
-  m_Name: Carta (2)
+  m_Name: CartaV_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5001,6 +5001,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 791541105}
-  - {fileID: 2118266356}
   - {fileID: 1821953785}
+  - {fileID: 2118266356}
   - {fileID: 899068310}
