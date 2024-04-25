@@ -9,12 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33aeb9bd2c1c2ce488b56a0c09e7bc79, type: 3}
+  m_Script: {fileID: 11500000, guid: a27416c0d763704408efa41cd4ca84ec, type: 3}
   m_Name: 4
   m_EditorClassIdentifier: 
-  V_id: 4
-  V_titulo: Plaga
-  V_descripcion: "Una plaga ha llegado a tus cultivos, por lo que su calidad se deterior\xF3"
-  V_verqor: -10% precio
-  V_coyote: -12%precio
-  V_canco: -11% precio
+  D_id: 4
+  D_titulo: Plaga
+  D_descripcion: "Una plaga ha llegado a tus cultivos, por lo que su calidad se deterior\xF3"
+  D_verqor: -10% precio
+  D_coyote: -12%precio
+  D_banco: -11% precio

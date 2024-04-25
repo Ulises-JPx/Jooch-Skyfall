@@ -9,12 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33aeb9bd2c1c2ce488b56a0c09e7bc79, type: 3}
+  m_Script: {fileID: 11500000, guid: a27416c0d763704408efa41cd4ca84ec, type: 3}
   m_Name: 3
   m_EditorClassIdentifier: 
-  V_id: 3
-  V_titulo: Enfermedad
-  V_descripcion: "Te has enfermado, debes pagar tus gastos m\xE9dicos."
-  V_verqor: -1500
-  V_coyote: -1500
-  V_canco: -1500
+  D_id: 3
+  D_titulo: Enfermedad
+  D_descripcion: "Te has enfermado, debes pagar tus gastos m\xE9dicos."
+  D_verqor: -1500
+  D_coyote: -1500
+  D_banco: -1500

@@ -13,6 +13,8 @@
 
 # PreguntasSO
 /Resources/Preguntas/*.asset
+/Resources/Ventajas/*.asset
+/Resources/Desventajas/*.asset
 
 # Builds
 *.meta
@@ -29,7 +31,7 @@
 
 # Thumbnails
 /._*
-**/*.meta
+**.meta
 
 # files that might appear on external disk
 .Spotlight-V100

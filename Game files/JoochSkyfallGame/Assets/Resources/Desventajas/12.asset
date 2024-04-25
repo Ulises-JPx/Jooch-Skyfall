@@ -9,12 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33aeb9bd2c1c2ce488b56a0c09e7bc79, type: 3}
+  m_Script: {fileID: 11500000, guid: a27416c0d763704408efa41cd4ca84ec, type: 3}
   m_Name: 12
   m_EditorClassIdentifier: 
-  V_id: 12
-  V_titulo: Robo de Cosecha
-  V_descripcion: Parte de tu cosecha ha sido robada, reduciendo tus ingresos potenciales.
-  V_verqor: -20% vercoins
-  V_coyote: -25% vercoins
-  V_canco: -22% vercoins
+  D_id: 12
+  D_titulo: Robo de Cosecha
+  D_descripcion: Parte de tu cosecha ha sido robada, reduciendo tus ingresos potenciales.
+  D_verqor: -20% vercoins
+  D_coyote: -25% vercoins
+  D_banco: -22% vercoins

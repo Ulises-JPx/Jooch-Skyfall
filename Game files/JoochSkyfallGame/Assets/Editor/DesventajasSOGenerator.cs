@@ -33,17 +33,17 @@ public class DesventajasSOGenerator : MonoBehaviour
         // Genera un DesventajaSO para cada DesventajaCsv
         foreach (DesventajaCsv desventajaCsv in desventajasCsv)
         {
-            CartaV desventajaSO = ScriptableObject.CreateInstance<CartaV>();
+            CartaD desventajaSO = ScriptableObject.CreateInstance<CartaD>();
 
-            desventajaSO.V_id = id; // Asigna el id actual
-            desventajaSO.V_titulo = desventajaCsv.NombreDesventaja;
-            desventajaSO.V_descripcion = desventajaCsv.Descripcion;
-            desventajaSO.V_verqor = desventajaCsv.EfectoVerqor;
-            desventajaSO.V_coyote = desventajaCsv.EfectoCoyote;
-            desventajaSO.V_canco = desventajaCsv.EfectoBanco;
+            desventajaSO.D_id = id; // Asigna el id actual
+            desventajaSO.D_titulo = desventajaCsv.NombreDesventaja;
+            desventajaSO.D_descripcion = desventajaCsv.Descripcion;
+            desventajaSO.D_verqor = desventajaCsv.EfectoVerqor;
+            desventajaSO.D_coyote = desventajaCsv.EfectoCoyote;
+            desventajaSO.D_banco = desventajaCsv.EfectoBanco;
 
             // Guarda el DesventajaSO como un archivo .asset
-            AssetDatabase.CreateAsset(desventajaSO, $"{desventajasFolderPath}/{desventajaSO.V_id}.asset");
+            AssetDatabase.CreateAsset(desventajaSO, $"{desventajasFolderPath}/{desventajaSO.D_id}.asset");
 
             id++; // Incrementa el contador
         }

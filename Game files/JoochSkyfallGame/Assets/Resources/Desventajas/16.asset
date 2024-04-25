@@ -9,13 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33aeb9bd2c1c2ce488b56a0c09e7bc79, type: 3}
+  m_Script: {fileID: 11500000, guid: a27416c0d763704408efa41cd4ca84ec, type: 3}
   m_Name: 16
   m_EditorClassIdentifier: 
-  V_id: 16
-  V_titulo: "Tarifas de Exportaci\xF3n"
-  V_descripcion: "Las tarifas de exportaci\xF3n han aumentado, reduciendo tus m\xE1rgenes
+  D_id: 16
+  D_titulo: "Tarifas de Exportaci\xF3n"
+  D_descripcion: "Las tarifas de exportaci\xF3n han aumentado, reduciendo tus m\xE1rgenes
     de ganancia."
-  V_verqor: -15% vercoins
-  V_coyote: -12% vercoins
-  V_canco: -14% vercoins
+  D_verqor: -15% vercoins
+  D_coyote: -12% vercoins
+  D_banco: -14% vercoins

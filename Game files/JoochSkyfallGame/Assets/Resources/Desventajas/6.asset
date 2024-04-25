@@ -9,12 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33aeb9bd2c1c2ce488b56a0c09e7bc79, type: 3}
+  m_Script: {fileID: 11500000, guid: a27416c0d763704408efa41cd4ca84ec, type: 3}
   m_Name: 6
   m_EditorClassIdentifier: 
-  V_id: 6
-  V_titulo: Calor extremo
-  V_descripcion: "Debido a las altas temperaturas tus cultivos se pudren m\xE1s r\xE1pido"
-  V_verqor: '- 100 vercoins'
-  V_coyote: '- 100 vercoins'
-  V_canco: '- 100 vercoins'
+  D_id: 6
+  D_titulo: Calor extremo
+  D_descripcion: "Debido a las altas temperaturas tus cultivos se pudren m\xE1s r\xE1pido"
+  D_verqor: '- 100 vercoins'
+  D_coyote: '- 100 vercoins'
+  D_banco: '- 100 vercoins'

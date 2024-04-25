@@ -9,13 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33aeb9bd2c1c2ce488b56a0c09e7bc79, type: 3}
+  m_Script: {fileID: 11500000, guid: a27416c0d763704408efa41cd4ca84ec, type: 3}
   m_Name: 17
   m_EditorClassIdentifier: 
-  V_id: 17
-  V_titulo: Escasez de Agua
-  V_descripcion: La disponibilidad de agua para riego se ha reducido, aumentando
+  D_id: 17
+  D_titulo: Escasez de Agua
+  D_descripcion: La disponibilidad de agua para riego se ha reducido, aumentando
     los costos.
-  V_verqor: +20% en costos de agua
-  V_coyote: +25% en costos de agua
-  V_canco: +22% en costos de agua
+  D_verqor: +20% en costos de agua
+  D_coyote: +25% en costos de agua
+  D_banco: +22% en costos de agua

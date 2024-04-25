@@ -2,7 +2,7 @@ using UnityEngine;
 
 [CreateAssetMenu(fileName = "CartaDesventaja", menuName = "CartaDesventaja")]	
 
-public class CartaDV : ScriptableObject{
+public class CartaD : ScriptableObject{
 
     public int D_id;
 
@@ -10,7 +10,7 @@ public class CartaDV : ScriptableObject{
     public string D_descripcion;
     public string D_verqor;
     public string D_coyote;
-    public string D_canco;
+    public string D_banco;
 
     // public Sprite D_img;
 

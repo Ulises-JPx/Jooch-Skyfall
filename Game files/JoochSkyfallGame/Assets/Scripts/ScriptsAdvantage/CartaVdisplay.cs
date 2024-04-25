@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class CartaDisplay : MonoBehaviour
+public class CartaVdisplay : MonoBehaviour
 {
     [SerializeField] private GameObject StartingTransition;
     public static List<CartaV> cartas;

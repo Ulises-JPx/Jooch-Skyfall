@@ -1781,7 +1781,7 @@ GameObject:
   - component: {fileID: 578348780}
   - component: {fileID: 578348782}
   m_Layer: 5
-  m_Name: Carta (1)
+  m_Name: Carta_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1863,17 +1863,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d2d3dc255eda4b468c3df3324a4918f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cartasDv:
-  - {fileID: 11400000, guid: a2536a10d9426fc45a4790671d100d66, type: 2}
-  - {fileID: 11400000, guid: f7e74b1ba8fd7a7409a29a4154a3618c, type: 2}
-  - {fileID: 11400000, guid: c3d4f4f3475f4c4468ac92f79fc651db, type: 2}
-  cartaDv: {fileID: 0}
-  nombrecartaDv: {fileID: 438046280}
-  descripcionDesventaja: {fileID: 89598701}
-  desventajaVerqor: {fileID: 730807352}
-  desventajaCoyote: {fileID: 850170845}
-  desventajaBanco: {fileID: 68385010}
-  arteCartaDv: {fileID: 1779994080}
+  cartasD: []
+  cartaD: {fileID: 0}
+  titulo: {fileID: 438046280}
+  descripcion: {fileID: 89598701}
+  verqor: {fileID: 730807352}
+  coyote: {fileID: 850170845}
+  banco: {fileID: 68385010}
 --- !u!1 &645802619
 GameObject:
   m_ObjectHideFlags: 0
@@ -3030,7 +3026,7 @@ GameObject:
   - component: {fileID: 1049239027}
   - component: {fileID: 1049239029}
   m_Layer: 5
-  m_Name: Carta (2)
+  m_Name: Carta_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3112,17 +3108,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d2d3dc255eda4b468c3df3324a4918f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cartasDv:
-  - {fileID: 11400000, guid: a2536a10d9426fc45a4790671d100d66, type: 2}
-  - {fileID: 11400000, guid: f7e74b1ba8fd7a7409a29a4154a3618c, type: 2}
-  - {fileID: 11400000, guid: c3d4f4f3475f4c4468ac92f79fc651db, type: 2}
-  cartaDv: {fileID: 0}
-  nombrecartaDv: {fileID: 189758810}
-  descripcionDesventaja: {fileID: 1638858198}
-  desventajaVerqor: {fileID: 680069163}
-  desventajaCoyote: {fileID: 179906600}
-  desventajaBanco: {fileID: 2041739071}
-  arteCartaDv: {fileID: 26808033}
+  cartasD: []
+  cartaD: {fileID: 0}
+  titulo: {fileID: 189758810}
+  descripcion: {fileID: 1638858198}
+  verqor: {fileID: 680069163}
+  coyote: {fileID: 179906600}
+  banco: {fileID: 2041739071}
 --- !u!1 &1162497444
 GameObject:
   m_ObjectHideFlags: 0
@@ -4489,7 +4481,7 @@ GameObject:
   - component: {fileID: 2092520875}
   - component: {fileID: 2092520877}
   m_Layer: 5
-  m_Name: Carta
+  m_Name: Carta_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4571,17 +4563,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d2d3dc255eda4b468c3df3324a4918f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cartasDv:
-  - {fileID: 11400000, guid: a2536a10d9426fc45a4790671d100d66, type: 2}
-  - {fileID: 11400000, guid: f7e74b1ba8fd7a7409a29a4154a3618c, type: 2}
-  - {fileID: 11400000, guid: c3d4f4f3475f4c4468ac92f79fc651db, type: 2}
-  cartaDv: {fileID: 0}
-  nombrecartaDv: {fileID: 683479590}
-  descripcionDesventaja: {fileID: 333330926}
-  desventajaVerqor: {fileID: 440558147}
-  desventajaCoyote: {fileID: 902912014}
-  desventajaBanco: {fileID: 139878851}
-  arteCartaDv: {fileID: 1836883243}
+  cartasD: []
+  cartaD: {fileID: 0}
+  titulo: {fileID: 683479590}
+  descripcion: {fileID: 333330926}
+  verqor: {fileID: 440558147}
+  coyote: {fileID: 902912014}
+  banco: {fileID: 139878851}
 --- !u!1 &2139823125
 GameObject:
   m_ObjectHideFlags: 0

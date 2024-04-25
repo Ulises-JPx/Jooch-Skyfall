@@ -9,13 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33aeb9bd2c1c2ce488b56a0c09e7bc79, type: 3}
+  m_Script: {fileID: 11500000, guid: a27416c0d763704408efa41cd4ca84ec, type: 3}
   m_Name: 18
   m_EditorClassIdentifier: 
-  V_id: 18
-  V_titulo: Incendio
-  V_descripcion: "Un incendio forestal cercano ha da\xF1ado parte de tus cultivos
+  D_id: 18
+  D_titulo: Incendio
+  D_descripcion: "Un incendio forestal cercano ha da\xF1ado parte de tus cultivos
     y estructuras agr\xEDcolas."
-  V_verqor: "-2000 Vercoins (Seguro cubre 70% de la p\xE9rdida)"
-  V_coyote: -5000 Vercoins
-  V_canco: -5000 Vercoins
+  D_verqor: "-2000 Vercoins (Seguro cubre 70% de la p\xE9rdida)"
+  D_coyote: -5000 Vercoins
+  D_banco: -5000 Vercoins
