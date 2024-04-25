@@ -44,16 +44,14 @@ public class PreguntaSOGenerator : MonoBehaviour
     }
 
     private static List<PreguntaCsv> LeerDatosDelCsv(string csvText) {
-        using (var reader = new StringReader(csvText))
-        using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
+        using var reader = new StringReader(csvText);
+        using var csv = new CsvReader(reader, CultureInfo.InvariantCulture);
+        var records = csv.GetRecords<PreguntaCsv>();
+        List<PreguntaCsv> preguntasCsv = new();
+        foreach (var record in records)
         {
-            var records = csv.GetRecords<PreguntaCsv>();
-            List<PreguntaCsv> preguntasCsv = new List<PreguntaCsv>();
-            foreach (var record in records)
-            {
-                preguntasCsv.Add(record);
-            }
-            return preguntasCsv;
+            preguntasCsv.Add(record);
         }
+        return preguntasCsv;
     }
 }

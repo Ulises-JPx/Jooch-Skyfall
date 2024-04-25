@@ -1,4 +1,4 @@
-﻿Nombre Desventaja,Decripción,Efecto Verqor,Efecto Coyote,Efecto Banco
+﻿NombreDesventaja,Descripcion,EfectoVerqor,EfectoCoyote,EfectoBanco
 Siniestro de Helada,"Oh no! Una helada ha llegado a tu ubicación. Si no tienes seguro, deberás pagar la reparación completa",Tienes seguro: -300 vercoins,Sin seguro adecuado: -3500 vercoins,Seguro estándar: -2500 vercoins
 Siniestro de Sequía,Oh no! Una sequía ha llegado a tu ubicación. Deberás pagar varias pipas para poder regar tus cultivos,Estrategias de mitigación: -4000 vercoins,Falta de recursos: -6000 vercoins,Cobertura estándar: -4000 vercoins
 Enfermedad,"Te has enfermado, debes pagar tus gastos médicos.",-1500,-1500,-1500

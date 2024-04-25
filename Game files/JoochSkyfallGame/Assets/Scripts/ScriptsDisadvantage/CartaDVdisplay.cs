@@ -1,13 +1,10 @@
-using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class CartaDVdisplay : MonoBehaviour
 {
-    
     public List<CartaDV> cartasDv;
     public CartaDV cartaDv;
 
@@ -16,39 +13,36 @@ public class CartaDVdisplay : MonoBehaviour
     public TextMeshProUGUI desventajaVerqor;
     public TextMeshProUGUI desventajaCoyote;
     public TextMeshProUGUI desventajaBanco;
-    public Image arteCartaDv;
+    // public Image arteCartaDv;
     void Start()
     {
-         generateCard();
+         GenerateCard();
     }
 
-    public void generateCard(){
+    public void GenerateCard(){
         cartaDv = cartasDv[Random.Range(0, cartasDv.Count)];
          
-        nombrecartaDv.text = cartaDv.nombrecartaDv;
-        descripcionDesventaja.text = cartaDv.descripcionDesventaja;
-        desventajaVerqor.text = cartaDv.desventajaVerqor;
-        desventajaCoyote.text = cartaDv.desventajaCoyote;
-        desventajaBanco.text = cartaDv.desventajaBanco;
-        arteCartaDv.sprite = cartaDv.arteCartaDv;  
+        nombrecartaDv.text = cartaDv.D_titulo;
+        descripcionDesventaja.text = cartaDv.D_descripcion;
+        desventajaVerqor.text = cartaDv.D_verqor;
+        desventajaCoyote.text = cartaDv.D_coyote;
+        desventajaBanco.text = cartaDv.D_canco;
+        // arteCartaDv.sprite = cartaDv.D_img;  // Descomenta esta línea si añades una imagen a tu clase CartaDV
     }
 
     public void DesventajasBoton(){
         
-        if (cartaDv.nombrecartaDv == "Siniestro De Helada"){
+        if (cartaDv.D_titulo == "Siniestro De Helada"){
             cartaDv.DesventajaSiniestroHelada();
             SceneManager.LoadScene("RecapScene");
-        }else if (cartaDv.nombrecartaDv == "Siniestro De Sequia"){
+        }else if (cartaDv.D_titulo == "Siniestro De Sequia"){
             cartaDv.DesventajaSiniestroSequia();
             SceneManager.LoadScene("RecapScene");
-        }else if (cartaDv.nombrecartaDv == "Enfermedad"){
+        }else if (cartaDv.D_titulo == "Enfermedad"){
             cartaDv.DesventajaEnfermedad();
             SceneManager.LoadScene("RecapScene");
-        }else if (cartaDv.nombrecartaDv == "Pago Deuda"){
-            
+        }else if (cartaDv.D_titulo == "Pago Deuda"){
             SceneManager.LoadScene("RecapScene");
         }
-
-
     }
 }

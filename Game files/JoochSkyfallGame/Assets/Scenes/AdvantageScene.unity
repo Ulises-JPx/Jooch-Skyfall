@@ -1618,12 +1618,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2bcbe4a1149de5841b1a494aeb63fe76, type: 2}
   - {fileID: 11400000, guid: d987ab36c2d4b4249b688086b61543b7, type: 2}
   carta: {fileID: 0}
-  nombrecarta: {fileID: 1977435576}
-  descripcionVentaja: {fileID: 1330239363}
-  ventajaVerqor: {fileID: 1962809828}
-  ventajaCoyote: {fileID: 260825561}
-  ventajaBanco: {fileID: 298155389}
-  arteCarta: {fileID: 621320069}
+  titulo: {fileID: 1977435576}
+  descripcion: {fileID: 1330239363}
+  verqor: {fileID: 1962809828}
+  coyote: {fileID: 260825561}
+  banco: {fileID: 298155389}
 --- !u!114 &541689267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2814,12 +2813,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2bcbe4a1149de5841b1a494aeb63fe76, type: 2}
   - {fileID: 11400000, guid: d987ab36c2d4b4249b688086b61543b7, type: 2}
   carta: {fileID: 0}
-  nombrecarta: {fileID: 1249391154}
-  descripcionVentaja: {fileID: 88992449}
-  ventajaVerqor: {fileID: 1217800564}
-  ventajaCoyote: {fileID: 1839314}
-  ventajaBanco: {fileID: 997098118}
-  arteCarta: {fileID: 704786753}
+  titulo: {fileID: 1249391154}
+  descripcion: {fileID: 88992449}
+  verqor: {fileID: 1217800564}
+  coyote: {fileID: 1839314}
+  banco: {fileID: 997098118}
 --- !u!1 &1151992322
 GameObject:
   m_ObjectHideFlags: 0
@@ -4167,12 +4165,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2bcbe4a1149de5841b1a494aeb63fe76, type: 2}
   - {fileID: 11400000, guid: d987ab36c2d4b4249b688086b61543b7, type: 2}
   carta: {fileID: 0}
-  nombrecarta: {fileID: 1747973025}
-  descripcionVentaja: {fileID: 263478765}
-  ventajaVerqor: {fileID: 623723137}
-  ventajaCoyote: {fileID: 1214586413}
-  ventajaBanco: {fileID: 1898109907}
-  arteCarta: {fileID: 140193017}
+  titulo: {fileID: 1747973025}
+  descripcion: {fileID: 263478765}
+  verqor: {fileID: 623723137}
+  coyote: {fileID: 1214586413}
+  banco: {fileID: 1898109907}
 --- !u!114 &1792868149
 MonoBehaviour:
   m_ObjectHideFlags: 0

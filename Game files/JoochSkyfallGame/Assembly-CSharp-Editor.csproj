@@ -64,6 +64,8 @@
     <Analyzer Include="M:\Program Files\Unity Editor\2022.3.20f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Editor\VentajasSOGenerator.cs" />
+    <Compile Include="Assets\Editor\DesventajasSOGenerator.cs" />
     <Compile Include="Assets\Editor\PreguntaSOGenerator.cs" />
   </ItemGroup>
   <ItemGroup>

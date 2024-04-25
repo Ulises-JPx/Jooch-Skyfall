@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33aeb9bd2c1c2ce488b56a0c09e7bc79, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  V_id: 2
+  V_titulo: "Siniestro de Sequ\xEDa"
+  V_descripcion: "Oh no! Una sequ\xEDa ha llegado a tu ubicaci\xF3n. Deber\xE1s pagar
+    varias pipas para poder regar tus cultivos"
+  V_verqor: "Estrategias de mitigaci\xF3n: -4000 vercoins"
+  V_coyote: 'Falta de recursos: -6000 vercoins'
+  V_canco: "Cobertura est\xE1ndar: -4000 vercoins"

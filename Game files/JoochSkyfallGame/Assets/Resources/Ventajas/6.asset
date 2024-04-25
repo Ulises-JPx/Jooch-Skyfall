@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33aeb9bd2c1c2ce488b56a0c09e7bc79, type: 3}
+  m_Name: 6
+  m_EditorClassIdentifier: 
+  V_id: 6
+  V_titulo: "Negociaci\xF3n Inteligente"
+  V_descripcion: "Felicidades, haz negociado con tu financiera y acordaron una reducci\xF3n
+    de inter\xE9s"
+  V_verqor: -2% interes
+  V_coyote: -1%Interes
+  V_canco: -1.8% Interes

@@ -2,56 +2,69 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class CartaDisplay : MonoBehaviour
 {
     [SerializeField] private GameObject StartingTransition;
-    public List<CartaV> cartas;
+    public static List<CartaV> cartas;
     public CartaV carta;
 
-    public TextMeshProUGUI nombrecarta;
-    public TextMeshProUGUI descripcionVentaja;
-    public TextMeshProUGUI ventajaVerqor;
-    public TextMeshProUGUI ventajaCoyote;
-    public TextMeshProUGUI ventajaBanco;
-    public Image arteCarta;
+    public TextMeshProUGUI titulo;
+    public TextMeshProUGUI descripcion;
+    public TextMeshProUGUI verqor;
+    public TextMeshProUGUI coyote;
+    public TextMeshProUGUI banco;
+    // public Image arte;
     void Start()
     {
+        cartas = new List<CartaV>(Resources.LoadAll<CartaV>("Ventajas"));
         StartCoroutine(TurnoffTransition());
-        generateCard();
+        GenerateCard();
     }
 
-    public void generateCard(){
+    public void GenerateCard()
+    {
         carta = cartas[Random.Range(0, cartas.Count)];
-         
-        nombrecarta.text = carta.nombrecarta;
-        descripcionVentaja.text = carta.descripcionVentaja;
-        ventajaVerqor.text = carta.ventajaVerqor;
-        ventajaCoyote.text = carta.ventajaCoyote;
-        ventajaBanco.text = carta.ventajaBanco;
-        arteCarta.sprite = carta.arteCarta;  
+
+        titulo.text = carta.V_titulo;
+        descripcion.text = carta.V_descripcion;
+        verqor.text = carta.V_verqor;
+        coyote.text = carta.V_coyote;
+        banco.text = carta.V_canco;
+        // arte.sprite = carta.V_img;  
     }
 
-    public void VentajasBoton(){
-        
-        if (carta.nombrecarta == "Comprador Nacional"){
+    public void VentajasBoton()
+    {
+
+        if (carta.V_titulo == "Comprador Nacional")
+        {
             carta.VentajaCompradorNacional();
             SceneManager.LoadScene("RecapScene");
-        }else if (carta.nombrecarta == "Nueva Certificacion"){
+        }
+        else if (carta.V_titulo == "Nueva Certificacion")
+        {
             carta.VentajaNuevaCertificacion();
             SceneManager.LoadScene("RecapScene");
-        }else if (carta.nombrecarta == "Lluvia Moderada"){
+        }
+        else if (carta.V_titulo == "Lluvia Moderada")
+        {
             carta.VentajaLluviaModerada();
             SceneManager.LoadScene("RecapScene");
-        }else if (carta.nombrecarta == "Negociacion Inteligente"){
+        }
+        else if (carta.V_titulo == "Negociacion Inteligente")
+        {
             carta.VentajaNegociacionInteligente();
             SceneManager.LoadScene("RecapScene");
-        }else if (carta.nombrecarta == "Reduccion de Deuda"){
+        }
+        else if (carta.V_titulo == "Reduccion de Deuda")
+        {
             carta.VentajaReduccionDeDeuda();
             SceneManager.LoadScene("RecapScene");
-        }else if (carta.nombrecarta == "Venta Exitosa"){
+        }
+        else if (carta.V_titulo == "Venta Exitosa")
+        {
             carta.VentajaVentaExitosa();
             SceneManager.LoadScene("RecapScene");
         }
@@ -62,5 +75,5 @@ public class CartaDisplay : MonoBehaviour
         yield return new WaitForSeconds(3f);
         StartingTransition.SetActive(false);
     }
-    
+
 }

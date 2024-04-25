@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33aeb9bd2c1c2ce488b56a0c09e7bc79, type: 3}
-  m_Name: Venta Exitosa
+  m_Name: 11
   m_EditorClassIdentifier: 
-  nombrecarta: Venta Exitosa
-  descripcionVentaja: Tu financiero te ha ayudado a vender tus estrategias agricolas
-  ventajaVerqor: + 1000 Vercoins
-  ventajaCoyote: + 1300 Vercoins
-  ventajaBanco: + 900 Vercoins
-  arteCarta: {fileID: 21300000, guid: 60f2b7aa5a6cb9645a0b58b689254c18, type: 3}
+  V_id: 11
+  V_titulo: "Estrategia de Comercializaci\xF3n"
+  V_descripcion: "Desarrollas una estrategia de comercializaci\xF3n que aumenta la
+    demanda de tus productos."
+  V_verqor: +12% en el precio de venta
+  V_coyote: +10% en el precio de venta
+  V_canco: +11% en el precio de venta

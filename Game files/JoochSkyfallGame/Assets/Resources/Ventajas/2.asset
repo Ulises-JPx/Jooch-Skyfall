@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33aeb9bd2c1c2ce488b56a0c09e7bc79, type: 3}
-  m_Name: NuevaCertificacion
+  m_Name: 2
   m_EditorClassIdentifier: 
-  nombrecarta: Nueva Certificacion
-  descripcionVentaja: "Has obtenido una certificaci\xF3n org\xE1nica para tus productos,
+  V_id: 2
+  V_titulo: "Nueva certificaci\xF3n"
+  V_descripcion: "Has obtenido una certificaci\xF3n org\xE1nica para tus productos,
     lo que aumenta su valor en el mercado debido a su calidad y sostenibilidad."
-  ventajaVerqor: + 17% precio venta
-  ventajaCoyote: + 15% precio venta
-  ventajaBanco: +20% precio venta
-  arteCarta: {fileID: 21300000, guid: 594cf26037ec15146bd54cf6a8c654f6, type: 3}
+  V_verqor: 17% aumento precio
+  V_coyote: 15% aumento precio
+  V_canco: 20% aumento de precio
