@@ -1,0 +1,35 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class Teclado : MonoBehaviour
+{
+    public RawImage ESC;
+    public RawImage Shift;
+    public RawImage Espacio;
+    public RawImage Izquierda;
+    public RawImage Derecha;
+
+    // Update is called once per frame
+    void Update()
+    {
+        UpdateKeyColor(KeyCode.Escape, ESC);
+        UpdateKeyColor(KeyCode.LeftShift, Shift);
+        UpdateKeyColor(KeyCode.Space, Espacio);
+        UpdateKeyColor(KeyCode.LeftArrow, Izquierda);
+        UpdateKeyColor(KeyCode.RightArrow, Derecha);
+    }
+
+    void UpdateKeyColor(KeyCode key, RawImage image)
+    {
+        if (Input.GetKeyDown(key))
+        {
+            image.color = Color.green; // Cambia el color a verde cuando se presiona la tecla
+        }
+        if (Input.GetKeyUp(key))
+        {
+            image.color = Color.white; // Cambia el color a blanco (o cualquier otro color original) cuando se suelta la tecla
+        }
+    }
+}
