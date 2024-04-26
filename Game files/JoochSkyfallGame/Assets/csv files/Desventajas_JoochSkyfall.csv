@@ -1,0 +1,20 @@
+﻿NombreDesventaja,Descripcion,EfectoVerqor,EfectoCoyote,EfectoBanco
+Siniestro de Helada,"Oh no! Una helada ha llegado a tu ubicación. Si no tienes seguro, deberás pagar la reparación completa",Tienes seguro: -300 vercoins,Sin seguro adecuado: -3500 vercoins,Seguro estándar: -2500 vercoins
+Siniestro de Sequía,Oh no! Una sequía ha llegado a tu ubicación. Deberás pagar varias pipas para poder regar tus cultivos,Estrategias de mitigación: -4000 vercoins,Falta de recursos: -6000 vercoins,Cobertura estándar: -4000 vercoins
+Enfermedad,"Te has enfermado, debes pagar tus gastos médicos.",-1500,-1500,-1500
+Plaga,"Una plaga ha llegado a tus cultivos, por lo que su calidad se deterioró",-10% precio,-12%precio,-11% precio
+Gastos extra,"Felicidades, ha nacido un nuevo integrante de tu familia, paga el hospital",-3000,-3000,-3000
+Calor extremo,Debido a las altas temperaturas tus cultivos se pudren más rápido,- 100 vercoins,- 100 vercoins,- 100 vercoins
+Engaño,Tu financiero ha decidido aumentar el interés en la deuda,No aplica,Incremento de interés: +4% interés,No aplica
+Conflicto con el narco,El narcotrafico ha parado tus exportaciones,-10% vercoins,-12%vercoins,-11% vercoins
+Crisis de Mercado,Una inesperada caída en los precios de mercado afecta tus ingresos.,Seguro cubre 50%: -10% Vercoins,Alto riesgo sin apoyo: -35% Vercoins,Soporte limitado: -25% Vercoins
+Inundación,"Fuertes lluvias han causado inundaciones, dañando infraestructura y cultivos.",-4000 Vercoins,-3000 Vercoins,-3500 Vercoins
+Incremento de Costos,El precio de los insumos agrícolas ha aumentado significativamente.,Asistencia con insumos: +15% en costos,Alto impacto: +25% en costos,Soporte estándar: +18% en costos
+Robo de Cosecha,"Parte de tu cosecha ha sido robada, reduciendo tus ingresos potenciales.",-20% vercoins,-25% vercoins,-22% vercoins
+Problemas de Logística,"Problemas logísticos han retrasado la entrega de tus productos, afectando su precio.",-8% precio,-10% precio,-9% precio
+Aumento de Tasas de Interés,El banco ha decidido aumentar las tasas de interés de manera generalizada.,No aplica,No aplica,+3% interés
+Tarifas de Exportación,"Las tarifas de exportación han aumentado, reduciendo tus márgenes de ganancia.",-15% vercoins,-12% vercoins,-14% vercoins
+Escasez de Agua,"La disponibilidad de agua para riego se ha reducido, aumentando los costos.",+20% en costos de agua,+25% en costos de agua,+22% en costos de agua
+Incendio,Un incendio forestal cercano ha dañado parte de tus cultivos y estructuras agrícolas.,-2000 Vercoins (Seguro cubre 70% de la pérdida),-5000 Vercoins,-5000 Vercoins
+Aumento del Costo Energético,El costo de la energía para tu operación agrícola ha aumentado.,+15% en costos energéticos,+17% en costos energéticos,+17% en costos energéticos
+Multas por Regulaciones,Has sido multado por no cumplir con nuevas regulaciones agrícolas o ambientales.,-2500 Vercoins,-2000 Vercoins,-2200 Vercoins

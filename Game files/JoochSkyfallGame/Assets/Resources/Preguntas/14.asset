@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f365af592b20a4d8426b425330d579, type: 3}
+  m_Name: 14
+  m_EditorClassIdentifier: 
+  SO_Id: 14
+  SO_Pregunta: "\xBFQu\xE9 es el riego en agricultura?"
+  SO_Op1: "Acci\xF3n de recolectar agua de lluvia para uso agr\xEDcola"
+  SO_Op2: "Acci\xF3n de hidratar la tierra para promover el crecimiento de la producci\xF3n"
+  SO_Op3: "Acci\xF3n de hidratar la tierra para promover el crecimiento de la producci\xF3n
+    mediante diferentes m\xE9todos como aspersi\xF3n, goteo o drones"
+  SO_Correcta: 3

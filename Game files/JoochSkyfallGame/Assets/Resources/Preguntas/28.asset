@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f365af592b20a4d8426b425330d579, type: 3}
+  m_Name: 28
+  m_EditorClassIdentifier: 
+  SO_Id: 28
+  SO_Pregunta: "\xBFCu\xE1l es una caracter\xEDstica distintiva de la agricultura
+    tradicional?"
+  SO_Op1: Promueve la biodiversidad
+  SO_Op2: "Se enfoca en la producci\xF3n a corto plazo"
+  SO_Op3: "Reduce el uso de fertilizantes sint\xE9ticos"
+  SO_Correcta: 2

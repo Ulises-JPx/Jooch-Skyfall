@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f365af592b20a4d8426b425330d579, type: 3}
+  m_Name: 12
+  m_EditorClassIdentifier: 
+  SO_Id: 12
+  SO_Pregunta: "\xBFQu\xE9 beneficios puede traer consigo la inclusi\xF3n financiera
+    para una comunidad?"
+  SO_Op1: Reducir la diversidad de servicios financieros disponibles.
+  SO_Op2: "Limitar el acceso a la tecnolog\xEDa financiera y a nuevas oportunidades
+    de desarrollo."
+  SO_Op3: "Promover el ahorro, la inversi\xF3n y el crecimiento econ\xF3mico."
+  SO_Correcta: 3

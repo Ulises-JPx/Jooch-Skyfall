@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f365af592b20a4d8426b425330d579, type: 3}
+  m_Name: 19
+  m_EditorClassIdentifier: 
+  SO_Id: 19
+  SO_Pregunta: "\xBFQu\xE9 aspecto fundamental aborda la trazabilidad de la cadena
+    de suministro?"
+  SO_Op1: La capacidad de mantener la confidencialidad de los datos de la cadena
+    de suministro.
+  SO_Op2: "La capacidad de producir bienes de manera r\xE1pida y eficiente, de manera
+    ordenada y planeada."
+  SO_Op3: "La capacidad de rastrear el origen y el recorrido de los materiales utilizados
+    en un producto o servicio, desde su extracci\xF3n hasta su destino final."
+  SO_Correcta: 3

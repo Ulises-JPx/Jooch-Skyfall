@@ -10,7 +10,14 @@
 /Game files/JoochSkyfallGame/Assembly-CSharp.csproj
 /Game files/JoochSkyfallGame/JoochSkyfallGame.sln
 
+
+# PreguntasSO
+/Resources/Preguntas/*.asset
+/Resources/Ventajas/*.asset
+/Resources/Desventajas/*.asset
+
 # Builds
+*.meta
 /build/
 /Game files/JoochSkyfallGame/build/
 
@@ -24,7 +31,7 @@
 
 # Thumbnails
 /._*
-**/*.meta
+**.meta
 
 # files that might appear on external disk
 .Spotlight-V100
