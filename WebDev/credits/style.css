@@ -16,7 +16,6 @@ body {
     font-size: 16px;
     font-family: 'Red Hat Display', sans-serif;
 }
-
 .layout {
   display: flex;
   gap: 16px;
