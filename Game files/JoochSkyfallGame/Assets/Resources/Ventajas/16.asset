@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: 16
   m_EditorClassIdentifier: 
   V_id: 16
-  V_titulo: Avance Rojo
-  V_descripcion: "La introducci\xF3n de variedades de jitomate gen\xE9ticamente mejoradas
-    ha incrementado su producci\xF3n."
-  V_verqor: "+20% producci\xF3n de jitomate"
-  V_coyote: "+15% producci\xF3n de jitomate"
-  V_canco: "+18% producci\xF3n de jitomate"
+  V_titulo: "Optimizaci\xF3n del Ciclo Productivo"
+  V_descripcion: "Implementas tecnolog\xEDas y pr\xE1cticas que eficientan el ciclo
+    productivo, reduciendo el tiempo de cosecha."
+  V_verqor: + 1500 vercoins
+  V_coyote: + 1500 vercoins
+  V_canco: + 1500 vercoins

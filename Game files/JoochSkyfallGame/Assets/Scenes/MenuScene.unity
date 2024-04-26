@@ -180,7 +180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: c889cdfa5d5cf4ca7a3f89015d89ac36, type: 3}
+  m_Texture: {fileID: 2800000, guid: 92e9a4bad43ef9646b39b9a4d095b271, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -377,7 +377,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1235379664}
+      - m_Target: {fileID: 1235379665}
         m_TargetAssemblyTypeName: CambioPanel, Assembly-CSharp
         m_MethodName: OnControlesBotonClick
         m_Mode: 1
@@ -710,7 +710,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 62fc15f1c8d504030939df66673e945b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3af7a0e4812823641aab823946eabdec, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -743,7 +743,7 @@ GameObject:
   - component: {fileID: 178295465}
   - component: {fileID: 178295464}
   - component: {fileID: 178295463}
-  - component: {fileID: 178295469}
+  - component: {fileID: 178295470}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1076,7 +1076,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &178295469
+--- !u!114 &178295470
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1085,7 +1085,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 178295460}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcdb0cbdf5ee94704af6732aa3a4dd9f, type: 3}
+  m_Script: {fileID: 11500000, guid: e1bbfc1795078a544831bbbef0ac57a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 178295463}
@@ -1495,7 +1495,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: da9edc2a9c8134da98230c409bda20bf, type: 3}
+  m_Texture: {fileID: 2800000, guid: 332c50457f422e345b804b6c34d2bf4e, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1617,7 +1617,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1235379664}
+      - m_Target: {fileID: 1235379665}
         m_TargetAssemblyTypeName: CambioPanel, Assembly-CSharp
         m_MethodName: OnControlesBotonClick
         m_Mode: 1
@@ -1649,7 +1649,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d9d53104b11734fd5834aa873a53d095, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dc4357e6ce221b54387dc0a3cafecdbe, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1676,7 +1676,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 267358154}
-  - component: {fileID: 267358155}
+  - component: {fileID: 267358156}
   m_Layer: 5
   m_Name: Teclado
   m_TagString: Untagged
@@ -1703,7 +1703,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &267358155
+--- !u!114 &267358156
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1712,7 +1712,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 267358153}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83a9577a5bf144d00b1372207374a1b0, type: 3}
+  m_Script: {fileID: 11500000, guid: 6e6af1d98ce5e604fb4b87dd9994b04c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ESC: {fileID: 759752660}
@@ -1922,7 +1922,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d9d53104b11734fd5834aa873a53d095, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dc4357e6ce221b54387dc0a3cafecdbe, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2251,7 +2251,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 9ac84888135484359b7dee0fcf4989ce, type: 3}
+  m_Texture: {fileID: 2800000, guid: e56e1635af3c54349933d96927e50d70, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -2342,7 +2342,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 8860acfd44c2d4159b237d512ebb927c, type: 3}
+  m_Texture: {fileID: 2800000, guid: 5a426f8f90667bd4fae1c4772e06ea1d, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -2395,7 +2395,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: dc8a92a696c76435684e12c21ea8d690, type: 3}
+  m_Texture: {fileID: 2800000, guid: c25d7f192c45ba74589b4c2c1a15606f, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -2486,7 +2486,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 932d5cce88f2e45adae280bf20f8cc56, type: 3}
+  m_Texture: {fileID: 2800000, guid: 36ca79b852ea35b48b2b6f0898c29182, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -2956,7 +2956,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 359e70a2a5df14ba9843a277ea9367c0, type: 3}
+  m_Texture: {fileID: 2800000, guid: a615ca5c7b9f9af4bb75d54c7543a4f6, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -4012,9 +4012,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 758553352}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1bd507b149881545a3021c1c174d779, type: 3}
+  m_Script: {fileID: 11500000, guid: ac1d5935158909a4c9bcba94e659c6d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  yourButton: {fileID: 758553354}
 --- !u!1 &759752659
 GameObject:
   m_ObjectHideFlags: 0
@@ -4053,7 +4054,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: b96153a019a1a4a4c9639121cf1705c7, type: 3}
+  m_Texture: {fileID: 2800000, guid: 4dd727a7302f722418240cfc79f1d221, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -4190,7 +4191,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 791627389}
-  - component: {fileID: 791627390}
+  - component: {fileID: 791627391}
   m_Layer: 5
   m_Name: Spawner
   m_TagString: Untagged
@@ -4217,7 +4218,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &791627390
+--- !u!114 &791627391
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4226,7 +4227,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 791627388}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a848a4b16b62b416b9fb8e52733f7834, type: 3}
+  m_Script: {fileID: 11500000, guid: fa76ebbee2ee11f40b5a50d5d5dd2845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   RainingObjects:
@@ -4242,8 +4243,8 @@ MonoBehaviour:
   - {fileID: 2078611959}
   panel: {fileID: 1153786822}
   startButton: {fileID: 437930407}
-  nextButtonSpawn: {fileID: 723612581}
-  nextButtonImages: {fileID: 2127642758}
+  nextButtonSpawn: {fileID: 2127642758}
+  nextButtonImages: {fileID: 723612581}
   homeButton: {fileID: 1290410812}
   textMessages:
   - segunda instruccion
@@ -4294,7 +4295,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: ac1fd8217c00a41aa97c985ddae54502, type: 3}
+  m_Texture: {fileID: 2800000, guid: 2f675de140db69643b61af8bc35697a6, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -4342,7 +4343,7 @@ GameObject:
   - component: {fileID: 943647306}
   - component: {fileID: 943647305}
   - component: {fileID: 943647304}
-  - component: {fileID: 943647310}
+  - component: {fileID: 943647311}
   m_Layer: 0
   m_Name: Player (1)
   m_TagString: Player
@@ -4662,7 +4663,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &943647310
+--- !u!114 &943647311
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4671,10 +4672,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 943647301}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12c8feaccbbc74a23823450f41938750, type: 3}
+  m_Script: {fileID: 11500000, guid: 232dc417b12fb004e9bdadd811f526cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnerInstruct: {fileID: 791627390}
+  spawnerInstruct: {fileID: 791627391}
   aguacateCount: 0
   rottenAguacateCount: 0
   lVerqorCount: 0
@@ -5376,7 +5377,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 8d5b24a3a92b348ee83e5cab438d7092, type: 3}
+  m_Texture: {fileID: 2800000, guid: 34d43df58e3047a4a8bd7100af375bb8, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -5750,7 +5751,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 585a19e3bd79149d9807719e2c952669, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fbdcfa47cf0f3f94e8f57436702bed37, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5950,7 +5951,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d9d53104b11734fd5834aa873a53d095, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dc4357e6ce221b54387dc0a3cafecdbe, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6072,7 +6073,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1235379663}
-  - component: {fileID: 1235379664}
+  - component: {fileID: 1235379665}
   m_Layer: 5
   m_Name: CambioPanel
   m_TagString: Untagged
@@ -6099,7 +6100,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -4}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1235379664
+--- !u!114 &1235379665
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6108,7 +6109,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1235379662}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b4a5d5892ce14268816d5cab2ec86b7, type: 3}
+  m_Script: {fileID: 11500000, guid: 6c777764faba7f44baf9326dba083bc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ControlesBoton: {fileID: 246285453}
@@ -6389,7 +6390,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: caa44c6b42b684133a161f2f360742c0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aacee5d00c24e1048b76962ec9f04567, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6973,7 +6974,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: d57f075b6fe5f4b858ac1daf4f848965, type: 3}
+  m_Texture: {fileID: 2800000, guid: 6a66b48e8a5668842bb057873c293267, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -7890,7 +7891,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 6048ce8c43ba54072bc14718867fb0a7, type: 3}
+  m_Texture: {fileID: 2800000, guid: 0cd3414761e954d4684e5d167b80d5e8, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -8403,7 +8404,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: f8a27944f9dc74929af08931318c6e99, type: 3}
+  m_Texture: {fileID: 2800000, guid: 76ed89e4af3c20b4096f5433aca308b3, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -8578,7 +8579,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 62fc15f1c8d504030939df66673e945b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3af7a0e4812823641aab823946eabdec, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8786,7 +8787,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: c889cdfa5d5cf4ca7a3f89015d89ac36, type: 3}
+  m_Texture: {fileID: 2800000, guid: 92e9a4bad43ef9646b39b9a4d095b271, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -9647,7 +9648,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 86a8236abcd1b470f8ad9856676c2f7c, type: 3}
+  m_Texture: {fileID: 2800000, guid: c02d4e113944da8449189b91c4a9ce4a, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -9719,7 +9720,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: c889cdfa5d5cf4ca7a3f89015d89ac36, type: 3}
+  m_Texture: {fileID: 2800000, guid: 92e9a4bad43ef9646b39b9a4d095b271, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -9881,7 +9882,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 6d5f5e75e8eaa4ddf8c87b1cd21701c0, type: 3}
+  m_Texture: {fileID: 2800000, guid: 8aa5f60087bb75843adaee368843b8b8, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -10245,7 +10246,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 4bb220baf7d964d659be8918ffa3aeb3, type: 3}
+  m_Texture: {fileID: 2800000, guid: 39ebde5173b18894f9f414051ae73fa2, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -10658,7 +10659,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: f8a27944f9dc74929af08931318c6e99, type: 3}
+  m_Texture: {fileID: 2800000, guid: 76ed89e4af3c20b4096f5433aca308b3, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -11071,7 +11072,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1235379664}
+      - m_Target: {fileID: 1235379665}
         m_TargetAssemblyTypeName: CambioPanel, Assembly-CSharp
         m_MethodName: OnIntruccionBotonClick
         m_Mode: 1
@@ -11103,7 +11104,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d9d53104b11734fd5834aa873a53d095, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dc4357e6ce221b54387dc0a3cafecdbe, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

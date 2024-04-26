@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: 11
   m_EditorClassIdentifier: 
   V_id: 11
-  V_titulo: "Estrategia de Comercializaci\xF3n"
-  V_descripcion: "Desarrollas una estrategia de comercializaci\xF3n que aumenta la
-    demanda de tus productos."
-  V_verqor: +12% en el precio de venta
-  V_coyote: +10% en el precio de venta
-  V_canco: +11% en el precio de venta
+  V_titulo: Festival del Chile
+  V_descripcion: "Tu comunidad ha celebrado el Festival del Chile, aumentando la
+    demanda y el inter\xE9s en tus chiles."
+  V_verqor: "+20% producci\xF3n de chile"
+  V_coyote: "+15% producci\xF3n de chile"
+  V_canco: "+18% producci\xF3n de chile"

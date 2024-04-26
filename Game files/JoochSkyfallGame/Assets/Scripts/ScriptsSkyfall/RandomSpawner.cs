@@ -14,11 +14,11 @@ public class RandomSpawner : MonoBehaviour
     private float minX = -8.23f;
     private float maxY = 15f;
     private float minY = 6f;
-    public static float spawnIntervalMaiz = 3f;
-    public static float spawnIntervalAguacate = 5f;
-    public static float spawnIntervalChile = 2f;
-    public static float spawnIntervalCafe = 4f;
-    public static float spawnIntervalJitomate = 6f;
+    public static float spawnIntervalMaiz = 7f;
+    public static float spawnIntervalAguacate = 9f;
+    public static float spawnIntervalChile = 6f;
+    public static float spawnIntervalCafe = 8f;
+    public static float spawnIntervalJitomate = 10f;
     private float SpawnTimeMaiz;
     private float SpawnTimeAguacate;
     private float SpawnTimeChile;

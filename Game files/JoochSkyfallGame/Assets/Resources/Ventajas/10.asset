@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: 10
   m_EditorClassIdentifier: 
   V_id: 10
-  V_titulo: Mejora en la Calidad del Suelo
-  V_descripcion: "Pr\xE1cticas regenerativas han mejorado significativamente la salud
-    del suelo."
-  V_verqor: "+8% m\xE1s produccion de cultivos"
-  V_coyote: "+8% m\xE1s produccion de cultivos"
-  V_canco: "+8% m\xE1s produccion de cultivos"
+  V_titulo: Cosecha Dorada
+  V_descripcion: "Condiciones clim\xE1ticas ideales han llevado a un rendimiento
+    r\xE9cord en tu producci\xF3n de ma\xEDz."
+  V_verqor: "+20% producci\xF3n de ma\xEDz"
+  V_coyote: "+15% producci\xF3n de ma\xEDz"
+  V_canco: "+18% producci\xF3n de ma\xEDz"

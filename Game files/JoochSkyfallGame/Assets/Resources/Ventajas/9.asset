@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: 9
   m_EditorClassIdentifier: 
   V_id: 9
-  V_titulo: "Optimizaci\xF3n de Recursos"
-  V_descripcion: "Mejoras en la gesti\xF3n de recursos h\xEDdricos y energ\xE9ticos
-    reducen costos de producci\xF3n."
-  V_verqor: -20% en costos operativos
-  V_coyote: -15% en costos operativos
-  V_canco: -18% en costos operativos
+  V_titulo: "Estrategia de Comercializaci\xF3n"
+  V_descripcion: "Desarrollas una estrategia de comercializaci\xF3n que aumenta la
+    demanda de tus productos."
+  V_verqor: +12% en el precio de venta
+  V_coyote: +10% en el precio de venta
+  V_canco: +11% en el precio de venta

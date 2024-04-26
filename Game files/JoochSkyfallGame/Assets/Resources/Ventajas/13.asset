@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: 13
   m_EditorClassIdentifier: 
   V_id: 13
-  V_titulo: Festival del Chile
-  V_descripcion: "Tu comunidad ha celebrado el Festival del Chile, aumentando la
-    demanda y el inter\xE9s en tus chiles."
-  V_verqor: "+20% producci\xF3n de chile"
-  V_coyote: "+15% producci\xF3n de chile"
-  V_canco: "+18% producci\xF3n de chile"
+  V_titulo: Boom del Oro Verde
+  V_descripcion: "La popularidad del aguacate sigue creciendo, y tus t\xE9cnicas
+    de cultivo han mejorado su rendimiento."
+  V_verqor: "+20% producci\xF3n de aguacate"
+  V_coyote: "+15% producci\xF3n de aguacate"
+  V_canco: "+18% producci\xF3n de aguacate"

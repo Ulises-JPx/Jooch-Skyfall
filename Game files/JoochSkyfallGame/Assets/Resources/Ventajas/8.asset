@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: 8
   m_EditorClassIdentifier: 
   V_id: 8
-  V_titulo: "Expansi\xF3n de Mercado"
-  V_descripcion: "Tu producto ha captado la atenci\xF3n en nuevos mercados nacionales."
-  V_verqor: +20% en el precio de venta
-  V_coyote: +15% en el precio de venta
-  V_canco: +18% en el precio de venta
+  V_titulo: "Optimizaci\xF3n de Recursos"
+  V_descripcion: "Mejoras en la gesti\xF3n de recursos h\xEDdricos y energ\xE9ticos
+    reducen costos de producci\xF3n."
+  V_verqor: -20% en costos operativos
+  V_coyote: -15% en costos operativos
+  V_canco: -18% en costos operativos

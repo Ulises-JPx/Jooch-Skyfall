@@ -43,7 +43,7 @@ public class CartaVdisplay : MonoBehaviour
             carta.VentajaCompradorNacional();
             SceneManager.LoadScene("RecapScene");
         }
-        else if (carta.V_titulo == "Nueva Certificacion")
+        else if (carta.V_titulo == "Nueva Certificación")
         {
             carta.VentajaNuevaCertificacion();
             SceneManager.LoadScene("RecapScene");
@@ -53,12 +53,7 @@ public class CartaVdisplay : MonoBehaviour
             carta.VentajaLluviaModerada();
             SceneManager.LoadScene("RecapScene");
         }
-        else if (carta.V_titulo == "Negociacion Inteligente")
-        {
-            carta.VentajaNegociacionInteligente();
-            SceneManager.LoadScene("RecapScene");
-        }
-        else if (carta.V_titulo == "Reduccion de Deuda")
+        else if (carta.V_titulo == "Reducción de la Deuda")
         {
             carta.VentajaReduccionDeDeuda();
             SceneManager.LoadScene("RecapScene");
@@ -68,6 +63,51 @@ public class CartaVdisplay : MonoBehaviour
             carta.VentajaVentaExitosa();
             SceneManager.LoadScene("RecapScene");
         }
+        else if (carta.V_titulo == "Negociación Inteligente"){
+            carta.VentajaNegociacionInteligente();
+            SceneManager.LoadScene("RecapScene");
+        }
+        else if (carta.V_titulo == "Avance Tecnológico"){
+            carta.VentajaAvanceTecnologico();
+            SceneManager.LoadScene("RecapScene");
+        }
+        else if (carta.V_titulo == "Optimización de Recursos"){
+            carta.VentajaOptimizacionRecursos();
+            SceneManager.LoadScene("RecapScene");
+        }
+        else if (carta.V_titulo == "Estrategia de Comercialización"){
+            carta.VentajaEstrategiaComercializacion();
+            SceneManager.LoadScene("RecapScene");
+        }
+        else if (carta.V_titulo == "Cosecha Dorada"){
+            carta.VentajaCosechaDorada();
+            SceneManager.LoadScene("RecapScene");
+        }
+        else if (carta.V_titulo == "Festival del Chile"){
+            carta.VentajaFestivalChile();
+            SceneManager.LoadScene("RecapScene");
+        }
+        else if (carta.V_titulo == "Despertar Aromático"){
+            carta.VentajaDespertarAromatico();
+            SceneManager.LoadScene("RecapScene");
+        }
+        else if (carta.V_titulo == "Boom del Oro Verde"){
+            carta.VentajaBoomOroVerde();
+            SceneManager.LoadScene("RecapScene");
+        }
+        else if (carta.V_titulo == "Avance Rojo"){
+            carta.VentajaAvanceRojo();
+            SceneManager.LoadScene("RecapScene");
+        }
+        else if (carta.V_titulo == "Acceso a  Agroinsumos Sostenibles"){
+            carta.VentajaAccesoAgroinsumos();
+            SceneManager.LoadScene("RecapScene");
+        }
+        else if (carta.V_titulo == "Optimización del Ciclo Productivo"){
+            carta.VentajaOptimizacionCiclo();
+            SceneManager.LoadScene("RecapScene");
+        }
+        
     }
 
     IEnumerator TurnoffTransition()

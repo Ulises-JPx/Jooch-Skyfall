@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: 15
   m_EditorClassIdentifier: 
   V_id: 15
-  V_titulo: Boom del Oro Verde
-  V_descripcion: "La popularidad del aguacate sigue creciendo, y tus t\xE9cnicas
-    de cultivo han mejorado su rendimiento."
-  V_verqor: "+20% producci\xF3n de aguacate"
-  V_coyote: "+15% producci\xF3n de aguacate"
-  V_canco: "+18% producci\xF3n de aguacate"
+  V_titulo: Acceso a Agroinsumos Sostenibles
+  V_descripcion: "Has conseguido un proveedor que te ofrece agroinsumos org\xE1nicos
+    a precios competitivos, reduciendo tu impacto ambiental."
+  V_verqor: +22% en el precio de venta
+  V_coyote: +20% en el precio de venta
+  V_canco: +22% en el precio de venta

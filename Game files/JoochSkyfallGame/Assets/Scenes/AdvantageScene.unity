@@ -1607,16 +1607,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 541689264}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd8c69f4f929cd64bab43139611d18bb, type: 3}
+  m_Script: {fileID: 11500000, guid: 81d9e857b0a3e5c4b85baa56343278d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   StartingTransition: {fileID: 1151992322}
-  cartas:
-  - {fileID: 11400000, guid: b8932dd08ee99444e9c4fb5717db0e2e, type: 2}
-  - {fileID: 11400000, guid: c1c4380daef8c5b4e8509ed87af671cf, type: 2}
-  - {fileID: 11400000, guid: bdf00c7528e212c469889b691f0673ce, type: 2}
-  - {fileID: 11400000, guid: 2bcbe4a1149de5841b1a494aeb63fe76, type: 2}
-  - {fileID: 11400000, guid: d987ab36c2d4b4249b688086b61543b7, type: 2}
   carta: {fileID: 0}
   titulo: {fileID: 1977435576}
   descripcion: {fileID: 1330239363}
@@ -2802,16 +2796,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1099675458}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd8c69f4f929cd64bab43139611d18bb, type: 3}
+  m_Script: {fileID: 11500000, guid: 81d9e857b0a3e5c4b85baa56343278d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   StartingTransition: {fileID: 1151992322}
-  cartas:
-  - {fileID: 11400000, guid: b8932dd08ee99444e9c4fb5717db0e2e, type: 2}
-  - {fileID: 11400000, guid: c1c4380daef8c5b4e8509ed87af671cf, type: 2}
-  - {fileID: 11400000, guid: bdf00c7528e212c469889b691f0673ce, type: 2}
-  - {fileID: 11400000, guid: 2bcbe4a1149de5841b1a494aeb63fe76, type: 2}
-  - {fileID: 11400000, guid: d987ab36c2d4b4249b688086b61543b7, type: 2}
   carta: {fileID: 0}
   titulo: {fileID: 1249391154}
   descripcion: {fileID: 88992449}
@@ -4051,7 +4039,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1099675462}
-        m_TargetAssemblyTypeName: CartaDisplay, Assembly-CSharp
+        m_TargetAssemblyTypeName: CartaVdisplay, Assembly-CSharp
         m_MethodName: VentajasBoton
         m_Mode: 1
         m_Arguments:
@@ -4154,16 +4142,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1792868146}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd8c69f4f929cd64bab43139611d18bb, type: 3}
+  m_Script: {fileID: 11500000, guid: 81d9e857b0a3e5c4b85baa56343278d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   StartingTransition: {fileID: 1151992322}
-  cartas:
-  - {fileID: 11400000, guid: b8932dd08ee99444e9c4fb5717db0e2e, type: 2}
-  - {fileID: 11400000, guid: c1c4380daef8c5b4e8509ed87af671cf, type: 2}
-  - {fileID: 11400000, guid: bdf00c7528e212c469889b691f0673ce, type: 2}
-  - {fileID: 11400000, guid: 2bcbe4a1149de5841b1a494aeb63fe76, type: 2}
-  - {fileID: 11400000, guid: d987ab36c2d4b4249b688086b61543b7, type: 2}
   carta: {fileID: 0}
   titulo: {fileID: 1747973025}
   descripcion: {fileID: 263478765}

@@ -9,12 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a27416c0d763704408efa41cd4ca84ec, type: 3}
+  m_Script: {fileID: 11500000, guid: 8791cb79beeaaa0489a814714a444ab2, type: 3}
   m_Name: 19
   m_EditorClassIdentifier: 
   D_id: 19
-  D_titulo: "Aumento del Costo Energ\xE9tico"
-  D_descripcion: "El costo de la energ\xEDa para tu operaci\xF3n agr\xEDcola ha aumentado."
-  D_verqor: "+15% en costos energ\xE9ticos"
-  D_coyote: "+17% en costos energ\xE9ticos"
-  D_banco: "+17% en costos energ\xE9ticos"
+  D_titulo: Multas por Regulaciones
+  D_descripcion: "Has sido multado por no cumplir con nuevas regulaciones agr\xEDcolas
+    o ambientales."
+  D_verqor: -2500 Vercoins
+  D_coyote: -2000 Vercoins
+  D_banco: -2200 Vercoins

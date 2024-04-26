@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: 12
   m_EditorClassIdentifier: 
   V_id: 12
-  V_titulo: Cosecha Dorada
-  V_descripcion: "Condiciones clim\xE1ticas ideales han llevado a un rendimiento
-    r\xE9cord en tu producci\xF3n de ma\xEDz."
-  V_verqor: "+20% producci\xF3n de ma\xEDz"
-  V_coyote: "+15% producci\xF3n de ma\xEDz"
-  V_canco: "+18% producci\xF3n de ma\xEDz"
+  V_titulo: "Despertar Arom\xE1tico"
+  V_descripcion: "Innovaciones en el procesamiento del caf\xE9 han mejorado la calidad
+    y rendimiento de tu caf\xE9."
+  V_verqor: "+20% producci\xF3n de caf\xE9"
+  V_coyote: "+15% producci\xF3n de caf\xE9"
+  V_canco: "+18% producci\xF3n de caf\xE9"

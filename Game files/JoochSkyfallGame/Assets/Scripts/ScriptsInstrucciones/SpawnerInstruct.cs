@@ -17,7 +17,6 @@ public class SpawnerInstruct : MonoBehaviour
     private int currentObjectIndex = 0;
     private int currentImageIndex = 0;
     private GameObject currentObject;
-    private GameObject currentImage;
 
     void Start()
     {
@@ -103,6 +102,7 @@ public class SpawnerInstruct : MonoBehaviour
 
     void HomeButtonClicked()
     {
+        DestroyCurrentObject();
         ResetGame();
     }
 
@@ -134,6 +134,7 @@ public class SpawnerInstruct : MonoBehaviour
     {
         currentImageIndex = 0;
         currentObjectIndex = 0;
+        InstructionImages[currentImageIndex].SetActive(false);
         startButton.gameObject.SetActive(true);
         nextButtonSpawn.gameObject.SetActive(false);
         nextButtonImages.gameObject.SetActive(false);
