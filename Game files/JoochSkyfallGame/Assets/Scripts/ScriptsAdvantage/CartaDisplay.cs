@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class CartaDisplay : MonoBehaviour
 {
+    [SerializeField] private GameObject StartingTransition;
     public List<CartaV> cartas;
     public CartaV carta;
 
@@ -18,7 +19,8 @@ public class CartaDisplay : MonoBehaviour
     public Image arteCarta;
     void Start()
     {
-         generateCard();
+        StartCoroutine(TurnoffTransition());
+        generateCard();
     }
 
     public void generateCard(){
@@ -34,20 +36,31 @@ public class CartaDisplay : MonoBehaviour
 
     public void VentajasBoton(){
         
-        if (carta.nombrecarta == "Fortuna"){
-            carta.VentajaFortuna();
-            SceneManager.LoadScene("GameScene");
-        }else if (carta.nombrecarta == "Fortuna2"){
-            carta.VentajaFortuna2();
-            SceneManager.LoadScene("GameScene");
-        }else if (carta.nombrecarta == "Lluvia Diaria"){
-            carta.VentajaLluviaDiaria();
-            SceneManager.LoadScene("GameScene");
-        }else if (carta.nombrecarta == "Pago Deuda"){
-            carta.VentajaPagoDeuda();
-            SceneManager.LoadScene("GameScene");
+        if (carta.nombrecarta == "Comprador Nacional"){
+            carta.VentajaCompradorNacional();
+            SceneManager.LoadScene("RecapScene");
+        }else if (carta.nombrecarta == "Nueva Certificacion"){
+            carta.VentajaNuevaCertificacion();
+            SceneManager.LoadScene("RecapScene");
+        }else if (carta.nombrecarta == "Lluvia Moderada"){
+            carta.VentajaLluviaModerada();
+            SceneManager.LoadScene("RecapScene");
+        }else if (carta.nombrecarta == "Negociacion Inteligente"){
+            carta.VentajaNegociacionInteligente();
+            SceneManager.LoadScene("RecapScene");
+        }else if (carta.nombrecarta == "Reduccion de Deuda"){
+            carta.VentajaReduccionDeDeuda();
+            SceneManager.LoadScene("RecapScene");
+        }else if (carta.nombrecarta == "Venta Exitosa"){
+            carta.VentajaVentaExitosa();
+            SceneManager.LoadScene("RecapScene");
         }
-
-
     }
+
+    IEnumerator TurnoffTransition()
+    {
+        yield return new WaitForSeconds(3f);
+        StartingTransition.SetActive(false);
+    }
+    
 }

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f365af592b20a4d8426b425330d579, type: 3}
+  m_Name: Pregunta 17
+  m_EditorClassIdentifier: 
+  nombre: Pregunta17
+  pregunta: "\xBFCu\xE1l de las siguientes pr\xE1cticas agr\xEDcolas busca mejorar
+    la salud del suelo y la biodiversidad mediante el uso de t\xE9cnicas como la
+    rotaci\xF3n de cultivos y la incorporaci\xF3n de cultivos de cobertura?"
+  opc1: Agricultura regenerativa
+  opc2: Agricultura convencional
+  opc3: Agricultura industrial
+  correcta: 1

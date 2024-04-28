@@ -16,40 +16,83 @@ public class CartaV : ScriptableObject{
     public Sprite arteCarta;
 
 
-    public void VentajaFortuna(){
+    public void VentajaCompradorNacional(){
         if(ElectionManager.TipoFinanciamiento == 1){
-            ItemManager.verCoinsCount += 1000;
+            RecapScript.precioMaiz = RecapScript.precioMaiz + (RecapScript.precioMaiz * 0.1f);
+            RecapScript.precioCafe = RecapScript.precioCafe + (RecapScript.precioCafe * 0.1f);
+            RecapScript.precioJitomate = RecapScript.precioJitomate + (RecapScript.precioJitomate * 0.1f);
+            RecapScript.precioAguacate = RecapScript.precioAguacate + (RecapScript.precioAguacate * 0.1f);
+            RecapScript.precioChile = RecapScript.precioChile + (RecapScript.precioChile * 0.1f);
         }else if(ElectionManager.TipoFinanciamiento == 2){
-            ItemManager.verCoinsCount += 500;
+            RecapScript.precioMaiz = RecapScript.precioMaiz + (RecapScript.precioMaiz * 0.08f);
+            RecapScript.precioCafe = RecapScript.precioCafe + (RecapScript.precioCafe * 0.08f);
+            RecapScript.precioJitomate = RecapScript.precioJitomate + (RecapScript.precioJitomate * 0.08f);
+            RecapScript.precioAguacate = RecapScript.precioAguacate + (RecapScript.precioAguacate * 0.08f);
+            RecapScript.precioChile = RecapScript.precioChile + (RecapScript.precioChile * 0.08f);
         }else if(ElectionManager.TipoFinanciamiento == 3){
-            ItemManager.verCoinsCount += 750;
+            RecapScript.precioMaiz = RecapScript.precioMaiz + (RecapScript.precioMaiz * 0.09f);
+            RecapScript.precioCafe = RecapScript.precioCafe + (RecapScript.precioCafe * 0.09f);
+            RecapScript.precioJitomate = RecapScript.precioJitomate + (RecapScript.precioJitomate * 0.09f);
+            RecapScript.precioAguacate = RecapScript.precioAguacate + (RecapScript.precioAguacate * 0.09f);
+            RecapScript.precioChile = RecapScript.precioChile + (RecapScript.precioChile * 0.09f);
         }
     }
-    public void VentajaFortuna2(){
+    public void VentajaNuevaCertificacion(){
         if(ElectionManager.TipoFinanciamiento == 1){
-            ItemManager.verCoinsCount += 3000;
+            RecapScript.precioMaiz = RecapScript.precioMaiz + (RecapScript.precioMaiz * 0.17f);
+            RecapScript.precioCafe = RecapScript.precioCafe + (RecapScript.precioCafe * 0.17f);
+            RecapScript.precioJitomate = RecapScript.precioJitomate + (RecapScript.precioJitomate * 0.17f);
+            RecapScript.precioAguacate = RecapScript.precioAguacate + (RecapScript.precioAguacate * 0.17f);
+            RecapScript.precioChile = RecapScript.precioChile + (RecapScript.precioChile * 0.17f);
         }else if(ElectionManager.TipoFinanciamiento == 2){
-            ItemManager.verCoinsCount += 2500;
+            RecapScript.precioMaiz = RecapScript.precioMaiz + (RecapScript.precioMaiz * 0.15f);
+            RecapScript.precioCafe = RecapScript.precioCafe + (RecapScript.precioCafe * 0.15f);
+            RecapScript.precioJitomate = RecapScript.precioJitomate + (RecapScript.precioJitomate * 0.15f);
+            RecapScript.precioAguacate = RecapScript.precioAguacate + (RecapScript.precioAguacate * 0.15f);
+            RecapScript.precioChile = RecapScript.precioChile + (RecapScript.precioChile * 0.15f);
         }else if(ElectionManager.TipoFinanciamiento == 3){
-            ItemManager.verCoinsCount += 2000;
+            RecapScript.precioMaiz = RecapScript.precioMaiz + (RecapScript.precioMaiz * 0.20f);
+            RecapScript.precioCafe = RecapScript.precioCafe + (RecapScript.precioCafe * 0.20f);
+            RecapScript.precioJitomate = RecapScript.precioJitomate + (RecapScript.precioJitomate * 0.20f);
+            RecapScript.precioAguacate = RecapScript.precioAguacate + (RecapScript.precioAguacate * 0.20f);
+            RecapScript.precioChile = RecapScript.precioChile + (RecapScript.precioChile * 0.20f);
         }
     }
-    public void VentajaLluviaDiaria(){
+    public void VentajaLluviaModerada(){
         if(ElectionManager.TipoFinanciamiento == 1){
-            ItemManager.verCoinsCount = ItemManager.verCoinsCount + (int)(ItemManager.verCoinsCount * 0.25);
+            Debug.Log("Lluvia moderada Verqor");
         }else if(ElectionManager.TipoFinanciamiento == 2){
-            ItemManager.verCoinsCount = ItemManager.verCoinsCount + (int)(ItemManager.verCoinsCount * 0.15);
+            Debug.Log("Lluvia moderada Coyote");
         }else if(ElectionManager.TipoFinanciamiento == 3){
-            ItemManager.verCoinsCount = ItemManager.verCoinsCount + (int)(ItemManager.verCoinsCount * 0.18);
+            Debug.Log("Lluvia moderada Banco");
         }
     }
-    public void VentajaPagoDeuda(){
+    public void VentajaNegociacionInteligente(){
         if(ElectionManager.TipoFinanciamiento == 1){
-            ElectionManager.deuda = ElectionManager.deuda - 1000;
+            ElectionManager.interes = ElectionManager.interes - 0.02f;
         }else if(ElectionManager.TipoFinanciamiento == 2){
-            ElectionManager.deuda = ElectionManager.deuda - 500;
+            ElectionManager.interes = ElectionManager.interes - 0.01f;
         }else if(ElectionManager.TipoFinanciamiento == 3){
-            ElectionManager.deuda = ElectionManager.deuda - 780;
+            ElectionManager.interes = ElectionManager.interes - 0.018f;
+        }
+    }
+
+    public void VentajaReduccionDeDeuda(){
+        if(ElectionManager.TipoFinanciamiento == 1){
+            ElectionManager.deuda = ElectionManager.deuda - (ElectionManager.deuda * 0.1f);
+        }else if(ElectionManager.TipoFinanciamiento == 2){
+            ElectionManager.deuda = ElectionManager.deuda - (ElectionManager.deuda * 0.05f);
+        }else if(ElectionManager.TipoFinanciamiento == 3){
+            ElectionManager.deuda = ElectionManager.deuda - (ElectionManager.deuda * 0.07f);
+        }      
+    }
+    public void VentajaVentaExitosa(){
+        if(ElectionManager.TipoFinanciamiento == 1){
+            ItemManager.verCoinsCount = ItemManager.verCoinsCount + 1000;
+        }else if(ElectionManager.TipoFinanciamiento == 2){
+            ItemManager.verCoinsCount = ItemManager.verCoinsCount + 1300;
+        }else if(ElectionManager.TipoFinanciamiento == 3){
+            ItemManager.verCoinsCount = ItemManager.verCoinsCount + 900;
         }
     }
 }
