@@ -52,3 +52,5 @@
 
 # Node App
 /Equipo2-WebApp/node_modules/
+/Equipo2-WebApp/package-lock.json
+/Equipo2-WebApp/package.json
