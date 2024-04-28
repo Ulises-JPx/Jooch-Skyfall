@@ -49,3 +49,6 @@
 /Game files/JoochSkyfallGame/.AppleDesktop/
 /Game files/JoochSkyfallGame/.TemporaryItems/
 /Game files/JoochSkyfallGame/.apdisk
+
+# Node App
+/Equipo2-WebApp/node_modules/
