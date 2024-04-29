@@ -2,8 +2,10 @@
 const express = require('express');
 const mysql = require('mysql');
 const util = require('util');
+
 const unityRoutes = require('./apis/unity');
 const jugadorRoutes = require('./apis/jugador');
+const auth = require('./apis/auth'); // Importamos las rutas de autenticación
 
 // Set server configuration
 const port = 8080;
@@ -39,6 +41,7 @@ app.use(express.json());
 
 app.use('/', unityRoutes(db));
 app.use('/jugadores', jugadorRoutes(db));
+app.use('/auth', auth(db)); // Usamos las rutas de autenticación
 
 // This code should go after all handlers because it is the final
 // middleware in the chain. If no other middleware handles the
