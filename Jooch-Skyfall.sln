@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Game files", "Game files", "{62EA420C-49E4-4843-AEF2-9CF449CB7EB2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assembly-CSharp", "Game files\JoochSkyfallGame\Assembly-CSharp.csproj", "{0FE001DA-E974-43A0-A241-590AC9E5D8BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FE001DA-E974-43A0-A241-590AC9E5D8BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE001DA-E974-43A0-A241-590AC9E5D8BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE001DA-E974-43A0-A241-590AC9E5D8BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE001DA-E974-43A0-A241-590AC9E5D8BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0FE001DA-E974-43A0-A241-590AC9E5D8BC} = {62EA420C-49E4-4843-AEF2-9CF449CB7EB2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A37ED395-BBEB-4BA3-A383-5A683EE6BBA2}
+	EndGlobalSection
+EndGlobal
