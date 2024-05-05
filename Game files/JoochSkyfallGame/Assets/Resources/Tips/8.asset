@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: 8
   m_EditorClassIdentifier: 
   T_id: 8
-  T_Tip: Los invernaderos son una forma de agricultura protegida que controla las
-    condiciones ambientales para optimizar el crecimiento.
+  T_Tip: "Los invernaderos controlan condiciones ambientales para optimizar el crecimiento
+    agr\xEDcola."

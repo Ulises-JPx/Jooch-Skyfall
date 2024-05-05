@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: 35
   m_EditorClassIdentifier: 
   T_id: 35
-  T_Tip: "La rotaci\xF3n de cultivos ayuda a controlar las plagas y enfermedades
-    interrumpiendo los ciclos de vida de los insectos y pat\xF3genos que dependen
-    de un solo tipo de cultivo para sobrevivir y multiplicarse."
+  T_Tip: "La rotaci\xF3n de cultivos interrumpe ciclos de plagas y enfermedades que
+    dependen de un solo cultivo."

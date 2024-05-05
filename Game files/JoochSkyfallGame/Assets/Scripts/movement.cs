@@ -1,8 +1,21 @@
+/*Código escrito por el equipo JOOCH SKYFALL 2024
+    Sebastián Espinoza Farías--------A01750311
+    Julio César Vivas Medina---------A01749879
+    Melissa Mireles Rendón-----------A01379736
+    Ulises Jaramillo Portilla--------A01798380
+    Alberto Cebreros González--------A01798671
+*/
+//Clase para el movimiento del jugador (Versión definitiva)
 using System.Collections;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    //Definir variables y referencias a unity
+    public AudioSource jumpSource;
+    public AudioClip jumpSound;
+    public AudioSource dashSource;
+    public AudioClip dashSound;
     public Animator animator;
     
     private float horizontal;
@@ -22,6 +35,13 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private TrailRenderer tr;
 
+    //Funcion que asigna los sonidos y clips del juego
+    void Start()
+    {
+        jumpSource.clip = jumpSound;
+        dashSource.clip = dashSound;
+    }
+    //Funcion update para el movimiento del jugador por cada frame del juego
     private void Update()
     {
         if (isDashing)
@@ -33,6 +53,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Speed", Mathf.Abs(horizontal));
 
         if (Input.GetButtonDown("Jump") && IsGrounded()){
+            jumpSource.Play();
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
             animator.SetBool("IsJumping", true);   
         }else if (IsGrounded())
@@ -43,7 +64,9 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
         {
+            
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+            animator.SetBool("IsJumping", true);
 
         }
         
@@ -55,7 +78,7 @@ public class PlayerMovement : MonoBehaviour
 
         Flip();
     }
-
+    //Funcion que se llama cada cierto tiempo para el movimiento del jugador
     private void FixedUpdate()
     {
         if (isDashing)
@@ -66,12 +89,14 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
     }
 
+    //Funcion que detecta si el jugador esta brincando 
     private bool IsGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
         
     }
-
+    
+    //Función que voltea al jugador en la dirección en la que se está moviendo
     private void Flip()
     {
         if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
@@ -82,9 +107,10 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = localScale;
         }
     }
-
+    //Corrutina para la funcionalidad del dash
     private IEnumerator Dash()
     {
+        dashSource.Play();
         canDash = false;
         isDashing = true;
         float originalGravity = rb.gravityScale;

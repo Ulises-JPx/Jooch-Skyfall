@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: 26
   m_EditorClassIdentifier: 
   T_id: 26
-  T_Tip: "El monocultivo es la pr\xE1ctica de cultivar una sola especie en un \xE1rea
-    agr\xEDcola"
+  T_Tip: El monocultivo aumenta la vulnerabilidad a las plagas y disminuye biodiversidad
+    del ecosistema.

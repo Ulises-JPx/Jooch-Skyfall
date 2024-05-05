@@ -1,6 +1,13 @@
+/*Código escrito por el equipo JOOCH SKYFALL 2024
+    Sebastián Espinoza Farías--------A01750311
+    Julio César Vivas Medina---------A01749879
+    Melissa Mireles Rendón-----------A01379736
+    Ulises Jaramillo Portilla--------A01798380
+    Alberto Cebreros González--------A01798671
+*/
 using JetBrains.Annotations;
 using UnityEngine;
-
+//Clase de Scriptable Object para las cartas de ventajas
 [CreateAssetMenu(fileName = "CartaVentaja", menuName = "CartaVentaja")]	
 
 public class CartaV : ScriptableObject{
@@ -66,6 +73,7 @@ public class CartaV : ScriptableObject{
         RandomSpawner.spawnIntervalCafe -= 1f;
         RandomSpawner.spawnIntervalJitomate -= 1f;
     }
+    //Reduccion de la Deuda Reduce la deuda
     public void VentajaReduccionDeDeuda(){
         if(ElectionManager.TipoFinanciamiento == 1){
             ElectionManager.deuda -= ElectionManager.deuda * 0.1f;
@@ -75,6 +83,7 @@ public class CartaV : ScriptableObject{
             ElectionManager.deuda -= ElectionManager.deuda * 0.07f;
         }      
     }
+    //Venta Exitosa Aumenta el dinero
     public void VentajaVentaExitosa(){
         if(ElectionManager.TipoFinanciamiento == 1){
             ItemManager.verCoinsCount += 1000;
@@ -84,15 +93,17 @@ public class CartaV : ScriptableObject{
             ItemManager.verCoinsCount += 950;
         }      
     }
+    //Negociacion Inteligente Reduce el interes
     public void VentajaNegociacionInteligente(){
         if(ElectionManager.TipoFinanciamiento == 1){
-            ElectionManager.interes -= ElectionManager.interes * 0.2f;
+            ElectionManager.interes -= ElectionManager.interes * 0.02f;
         }else if(ElectionManager.TipoFinanciamiento == 2){
-            ElectionManager.interes -= ElectionManager.interes * 0.1f;
+            ElectionManager.interes -= ElectionManager.interes * 0.01f;
         }else if(ElectionManager.TipoFinanciamiento == 3){
-            ElectionManager.interes -= ElectionManager.interes * 0.18f;
+            ElectionManager.interes -= ElectionManager.interes * 0.018f;
         }      
     }
+    //Avance Tecnologico Aumenta el spawn rate de TODOS LOS CULTIVOS un 15%
     public void VentajaAvanceTecnologico(){
         if(ElectionManager.TipoFinanciamiento == 1){
             RandomSpawner.spawnIntervalMaiz -= RandomSpawner.spawnIntervalMaiz * 0.15f;
@@ -114,17 +125,24 @@ public class CartaV : ScriptableObject{
             RandomSpawner.spawnIntervalJitomate -= RandomSpawner.spawnIntervalJitomate * 0.12f;
         }
     }
+    //Optimizacion de Recursos Reduce los costos de luz, agua y distribucion
     public void VentajaOptimizacionRecursos(){
         if(ElectionManager.TipoFinanciamiento == 1){
-            Debug.Log("Optimizacion de recursos Verqor");
+            RecapScript.CosotsLuz -= RecapScript.CosotsLuz * 0.2f;
+            RecapScript.CostosAgua -= RecapScript.CostosAgua * 0.2f;
+            RecapScript.CostosDistribucion -= RecapScript.CostosDistribucion * 0.2f;
         }else if(ElectionManager.TipoFinanciamiento == 2){
-            Debug.Log("Optimizacion de recursos Coyote");
+            RecapScript.CosotsLuz -= RecapScript.CosotsLuz * 0.15f;
+            RecapScript.CostosAgua -= RecapScript.CostosAgua * 0.15f;
+            RecapScript.CostosDistribucion -= RecapScript.CostosDistribucion * 0.15f;
         }else if(ElectionManager.TipoFinanciamiento == 3){
-            Debug.Log("Optimizacion de recursos Banco");
+            RecapScript.CosotsLuz -= RecapScript.CosotsLuz * 0.18f;
+            RecapScript.CostosAgua -= RecapScript.CostosAgua * 0.18f;
+            RecapScript.CostosDistribucion -= RecapScript.CostosDistribucion * 0.18f;
         }
     
     }
-
+    //Comprador Nacional Aumenta el precio de TODOS los productos
     public void VentajaEstrategiaComercializacion(){
         if(ElectionManager.TipoFinanciamiento == 1){
             RecapScript.precioMaiz += RecapScript.precioMaiz * 0.12f;
@@ -146,6 +164,7 @@ public class CartaV : ScriptableObject{
             RecapScript.precioChile += RecapScript.precioChile * 0.11f;
         }
     }
+    //Aumenta el spawn de maiz
     public void VentajaCosechaDorada(){
         if(ElectionManager.TipoFinanciamiento == 1){
             RandomSpawner.spawnIntervalMaiz -= RandomSpawner.spawnIntervalMaiz * 0.2f;
@@ -155,6 +174,7 @@ public class CartaV : ScriptableObject{
             RandomSpawner.spawnIntervalMaiz -= RandomSpawner.spawnIntervalMaiz * 0.18f;
         }
     }
+    //Aumenta el spawn de chile
     public void VentajaFestivalChile(){
         if(ElectionManager.TipoFinanciamiento == 1){
             RandomSpawner.spawnIntervalChile -= RandomSpawner.spawnIntervalChile * 0.2f;
@@ -164,6 +184,7 @@ public class CartaV : ScriptableObject{
             RandomSpawner.spawnIntervalChile -= RandomSpawner.spawnIntervalChile * 0.18f;
         }
     }
+    //Aumenta el spawn de cafe
     public void VentajaDespertarAromatico(){
         if(ElectionManager.TipoFinanciamiento == 1){
             RandomSpawner.spawnIntervalCafe -= RandomSpawner.spawnIntervalCafe * 0.2f;
@@ -173,6 +194,7 @@ public class CartaV : ScriptableObject{
             RandomSpawner.spawnIntervalCafe -= RandomSpawner.spawnIntervalCafe * 0.18f;
         }
     }
+    //Aumenta el spawn de aguacate
     public void VentajaBoomOroVerde(){
         if(ElectionManager.TipoFinanciamiento == 1){
             RandomSpawner.spawnIntervalAguacate -= RandomSpawner.spawnIntervalAguacate * 0.2f;
@@ -182,6 +204,7 @@ public class CartaV : ScriptableObject{
             RandomSpawner.spawnIntervalAguacate -= RandomSpawner.spawnIntervalAguacate * 0.18f;
         }
     }
+    //Aumenta el spawn de jitomate
     public void VentajaAvanceRojo(){
         if(ElectionManager.TipoFinanciamiento == 1){
             RandomSpawner.spawnIntervalJitomate -= RandomSpawner.spawnIntervalJitomate * 0.2f;
@@ -191,6 +214,7 @@ public class CartaV : ScriptableObject{
             RandomSpawner.spawnIntervalJitomate -= RandomSpawner.spawnIntervalJitomate * 0.18f;
         }
     }
+    //Aumenta el precio de los productos
     public void VentajaAccesoAgroinsumos(){
         if(ElectionManager.TipoFinanciamiento == 1){
             RecapScript.precioMaiz += RecapScript.precioMaiz * 0.22f;
@@ -213,6 +237,7 @@ public class CartaV : ScriptableObject{
         }
 
     }
+    //Aumenta el dinero
     public void VentajaOptimizacionCiclo(){
         if(ElectionManager.TipoFinanciamiento == 1){
             ItemManager.verCoinsCount += 1500;

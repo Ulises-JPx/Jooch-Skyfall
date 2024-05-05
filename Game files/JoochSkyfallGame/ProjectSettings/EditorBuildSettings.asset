@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/LoginScene.unity
+    guid: 0bdf8009f3cb33041b9ef7d886717825
+  - enabled: 1
+    path: Assets/Scenes/GameStartScene.unity
+    guid: 2447a2f2b2b8d0c4898b070fc883edbe
+  - enabled: 1
+    path: Assets/Scenes/MenuScene.unity
+    guid: 083003ed163eea648b38c91772b21273
+  - enabled: 1
+    path: Assets/Scenes/StoryTellingScene.unity
+    guid: f17e348eaffc82a46adf3dce975eb0be
+  - enabled: 1
+    path: Assets/Scenes/ElectionScene.unity
+    guid: 07ba8b3244951f543957cb3770402f9a
+  - enabled: 1
+    path: Assets/Scenes/GameScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/TriviaScene.unity
+    guid: 1cfe4dd94058c4a4d957ce1efc84ea0e
+  - enabled: 1
+    path: Assets/Scenes/AdvantageScene.unity
+    guid: 93885d6a0cbf6db479571e13a07cc794
+  - enabled: 1
+    path: Assets/Scenes/DisadvantageScene.unity
+    guid: 8ef93377e6f5fc9449439859d419e62e
+  - enabled: 1
+    path: Assets/Scenes/RecapScene.unity
+    guid: 8812cc37b7370414a85eaa650f576aef
+  - enabled: 1
+    path: Assets/Scenes/LoserScene.unity
+    guid: d8025565f7492e64fa36e5f17d67989d
+  - enabled: 1
+    path: Assets/Scenes/WinnerScene.unity
+    guid: e6e844fecb9779f4e84f58b82127b000
+  m_configObjects: {}

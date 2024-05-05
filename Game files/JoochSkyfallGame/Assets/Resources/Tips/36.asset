@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: 36
   m_EditorClassIdentifier: 
   T_id: 36
-  T_Tip: "La agricultura regenerativa aumenta la rentabilidad a largo plazo. Adem\xE1s"
+  T_Tip: La agricultura regenerativa mejora rentabilidad y reduce costos de insumos
+    como fertilizantes y pesticidas.

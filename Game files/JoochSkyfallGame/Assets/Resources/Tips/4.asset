@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: 4
   m_EditorClassIdentifier: 
   T_id: 4
-  T_Tip: Los financiamientos formales garantiza claridad y seguridad
+  T_Tip: Financiamientos formales garantizan claridad y seguridad al evitar riesgos
+    financieros.

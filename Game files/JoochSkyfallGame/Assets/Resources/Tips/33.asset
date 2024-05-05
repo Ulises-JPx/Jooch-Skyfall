@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: 33
   m_EditorClassIdentifier: 
   T_id: 33
-  T_Tip: "La agricultura tradicional implica pr\xE1cticas como la tala de bosques
-    para la expansi\xF3n agr\xEDcola y el uso intensivo de pesticidas qu\xEDmicos
-    que pueden da\xF1ar los ecosistemas naturales."
+  T_Tip: "La agricultura tradicional implica tala de bosques para expansi\xF3n agr\xEDcola
+    y uso intensivo de pesticidas qu\xEDmicos."

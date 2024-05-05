@@ -1,9 +1,17 @@
+/*Código escrito por el equipo JOOCH SKYFALL 2024
+    Sebastián Espinoza Farías--------A01750311
+    Julio César Vivas Medina---------A01749879
+    Melissa Mireles Rendón-----------A01379736
+    Ulises Jaramillo Portilla--------A01798380
+    Alberto Cebreros González--------A01798671
+*/
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
-
+//Clase para las instrucciones del juego
 public class SpawnerInstruct : MonoBehaviour
 {
+    //Referencias a todos los elementos de UI de la escena
     public GameObject[] RainingObjects;
     public GameObject[] InstructionImages;
     public GameObject panel;
@@ -17,7 +25,7 @@ public class SpawnerInstruct : MonoBehaviour
     private int currentObjectIndex = 0;
     private int currentImageIndex = 0;
     private GameObject currentObject;
-
+    //Funcion  que inicializA los botones y llama a las funciones correspondientes
     void Start()
     {
         startButton.onClick.AddListener(StartButtonClicked);
@@ -28,18 +36,19 @@ public class SpawnerInstruct : MonoBehaviour
         nextButtonImages.gameObject.SetActive(false);
         panel.SetActive(false);
     }
-
+    //Funcion para mostrar la imagen de instrucciones
     void StartButtonClicked()
     {
         startButton.gameObject.SetActive(false);
         ShowImage();
     }
-
+    //Funcion para mostrar la imagen de instrucciones
     void ShowImage()
     {
         InstructionImages[currentImageIndex].SetActive(true);
         StartCoroutine(WaitAndShowPanel());
     }
+    //Corrutina para mostrar el panel de instrucciones despues de u tiempo
 
     IEnumerator WaitAndShowPanel()
     {
@@ -57,6 +66,7 @@ public class SpawnerInstruct : MonoBehaviour
         }
     }
 
+    //
     void NextButtonSpawnClicked()
     {
         panel.SetActive(false); // Ocultar el panel cuando se hace clic en el botón "Siguiente"
@@ -74,16 +84,16 @@ public class SpawnerInstruct : MonoBehaviour
             nextButtonSpawn.gameObject.SetActive(false); // Desactivar el botón de spawn
         }
     }
-
+    //Funcion para generar los objetos que caen dentro de las instrucciones
     void Spawn()
     {
-        float x = 0.470f;
+        float x = 0.3f;
         float y = -0.54f;
         currentObject = Instantiate(RainingObjects[currentObjectIndex], new Vector3(x, y, 0), transform.rotation);
         Debug.Log("CurrentObject Index:" + currentObjectIndex + " " + RainingObjects[currentObjectIndex].name); // Mostrar en la consola el nombre del objeto que se está generando (para depuración)
         Debug.Log("Spawned object at: " + currentObject.transform.position);
     }
-
+    //Funcion para mostrar la siguiente imagen de instrucciones
     void NextButtonImagesClicked()
     {
         panel.SetActive(false);
@@ -99,13 +109,13 @@ public class SpawnerInstruct : MonoBehaviour
             ResetGame();
         }
     }
-
+    //Funcion para regresar al menu principal
     void HomeButtonClicked()
     {
         DestroyCurrentObject();
         ResetGame();
     }
-
+    //Funcion para destruir el objeto actual
     void DestroyCurrentObject()
     {
         if (currentObject != null)
@@ -114,7 +124,7 @@ public class SpawnerInstruct : MonoBehaviour
             currentObject = null;
         }
     }
-
+    //Funcion para mostrar el panel de instrucciones
     public void ObjectCaught()
     {
         panel.SetActive(true);
@@ -130,6 +140,7 @@ public class SpawnerInstruct : MonoBehaviour
             nextButtonImages.gameObject.SetActive(true);
         }
     }
+    //Funcion para reiniciar el estado de instrucciones
     void ResetGame()
     {
         currentImageIndex = 0;

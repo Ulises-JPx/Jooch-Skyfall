@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: 20
   m_EditorClassIdentifier: 
   T_id: 20
-  T_Tip: "Los agroinsumos comprenden todos los consumibles utilizados en la producci\xF3n
-    agr\xEDcola"
+  T_Tip: Los Agroinsumos comprenden fertilizantes

@@ -16,6 +16,6 @@ MonoBehaviour:
   V_titulo: Comprador nacional
   V_descripcion: "\xA1Has conseguido un nuevo comprador nacional para tus productos!
     Esto significa una mayor demanda y reconocimiento para tus cultivos."
-  V_verqor: 10% aumento precio
-  V_coyote: 8% aumento precio
-  V_canco: 10% aumento precio
+  V_verqor: 10% aumento precio todos los cultivos
+  V_coyote: 8% aumento precio todos los cultivos
+  V_canco: 10% aumento precio todos los cultivos

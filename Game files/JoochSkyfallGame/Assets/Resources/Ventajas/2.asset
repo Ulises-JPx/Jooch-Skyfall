@@ -16,6 +16,6 @@ MonoBehaviour:
   V_titulo: "Nueva certificaci\xF3n"
   V_descripcion: "Has obtenido una certificaci\xF3n org\xE1nica para tus productos,
     lo que aumenta su valor en el mercado debido a su calidad y sostenibilidad."
-  V_verqor: 17% aumento precio
-  V_coyote: 15% aumento precio
-  V_canco: 20% aumento de precio
+  V_verqor: 17% aumento precio todos los cultivos
+  V_coyote: 15% aumento precio todos los cultivos
+  V_canco: 20% aumento de precio todos los cultivos

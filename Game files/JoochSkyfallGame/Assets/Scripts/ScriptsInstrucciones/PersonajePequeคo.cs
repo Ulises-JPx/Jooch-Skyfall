@@ -1,9 +1,17 @@
+/*Código escrito por el equipo JOOCH SKYFALL 2024
+    Sebastián Espinoza Farías--------A01750311
+    Julio César Vivas Medina---------A01749879
+    Melissa Mireles Rendón-----------A01379736
+    Ulises Jaramillo Portilla--------A01798380
+    Alberto Cebreros González--------A01798671
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//Clase para el movimiento del personaje pequeño
 public class PersonajePequeño : MonoBehaviour
 {
+    //Referencias a los componentes del personaje
     public Animator animator;
     private float horizontal;
     private float speed = 3f;
@@ -22,6 +30,7 @@ public class PersonajePequeño : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private TrailRenderer tr;
 
+    //Funcion que se llama cada frame del juego
     private void Update()
     {
         if (isDashing)
@@ -55,7 +64,7 @@ public class PersonajePequeño : MonoBehaviour
 
         Flip();
     }
-
+    //Funcion que se llama cada cierto tiempo para el movimiento del personaje
     private void FixedUpdate()
     {
         if (isDashing)
@@ -66,12 +75,14 @@ public class PersonajePequeño : MonoBehaviour
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
     }
 
+    //Funcion que se llama cuando el peersonaje esta tocando el suelo
     private bool IsGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
         
     }
 
+    //Funcion que se llama cuando el personaje cambia de dirección
     private void Flip()
     {
         if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
@@ -83,6 +94,7 @@ public class PersonajePequeño : MonoBehaviour
         }
     }
 
+    //Funcion que se llama cuando el personaje realiza un dash
     private IEnumerator Dash()
     {
         canDash = false;

@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: 21
   m_EditorClassIdentifier: 
   T_id: 21
-  T_Tip: El financiamiento bancario ofrece opciones estructuradas
+  T_Tip: "El financiamiento bancario ofrece opciones estructuradas pero su acceso
+    puede ser dif\xEDcil."

@@ -1,10 +1,17 @@
+/*Código escrito por el equipo JOOCH SKYFALL 2024
+    Sebastián Espinoza Farías--------A01750311
+    Julio César Vivas Medina---------A01749879
+    Melissa Mireles Rendón-----------A01379736
+    Ulises Jaramillo Portilla--------A01798380
+    Alberto Cebreros González--------A01798671
+*/
 using System;
 using UnityEngine;
-
+//Clase de Scriptable Object para las cartas de desventajas
 [CreateAssetMenu(fileName = "CartaDesventaja", menuName = "CartaDesventaja")]	
 
 public class CartaD : ScriptableObject{
-
+    //Variables de la clase
     public int D_id;
 
     public string D_titulo;
@@ -15,6 +22,8 @@ public class CartaD : ScriptableObject{
 
     // public Sprite D_img;
 
+    //Funciones para aplicar las desventajas de las cartas, dependiendo del tipo de financiamiento
+    //Se resta una cantidad de monedas al jugador
     public void DesventajaSiniestroHelada(){
         if(ElectionManager.TipoFinanciamiento == 1){
             ItemManager.verCoinsCount -= 300;
@@ -24,6 +33,7 @@ public class CartaD : ScriptableObject{
             ItemManager.verCoinsCount -= 2500;
         }
     }
+    //Se resta una cantidad de monedas al jugador
     public void DesventajaSiniestroSequia(){
         if(ElectionManager.TipoFinanciamiento == 1){
             ItemManager.verCoinsCount -= 4000;
@@ -33,6 +43,7 @@ public class CartaD : ScriptableObject{
             ItemManager.verCoinsCount -= 4000;
         }
     }
+    //Se resta una cantidad de monedas al jugador
     public void DesventajaEnfermedad(){
         if(ElectionManager.TipoFinanciamiento == 1){
             ItemManager.verCoinsCount -= 1500;
@@ -42,6 +53,7 @@ public class CartaD : ScriptableObject{
             ItemManager.verCoinsCount -= 1500;
         }
     }
+    //Se actualizan los precios de los cultivos
     public void DesventajaPlaga(){
         if(ElectionManager.TipoFinanciamiento == 1){
             RecapScript.precioMaiz -= RecapScript.precioMaiz * 0.1f;
@@ -63,6 +75,7 @@ public class CartaD : ScriptableObject{
             RecapScript.precioChile -= RecapScript.precioChile * 0.11f;
         }
     }
+    //Se resta una cantidad de monedas al jugador
     public void DesventajaGatsosExtra(){
         if(ElectionManager.TipoFinanciamiento == 1){
             ItemManager.verCoinsCount -= 3000;
@@ -72,6 +85,7 @@ public class CartaD : ScriptableObject{
             ItemManager.verCoinsCount -= 3000;
         }
     }
+    //Se resta una cantidad de monedas al jugador
     public void DesventajaCalorExtremo(){
         if(ElectionManager.TipoFinanciamiento == 1){
             ItemManager.verCoinsCount -= 100;
@@ -81,12 +95,14 @@ public class CartaD : ScriptableObject{
             ItemManager.verCoinsCount -= 100;
         }
     }
+    //Se actualiza el interés del jugdor
     public void DesventajaEngano(){
         if(ElectionManager.TipoFinanciamiento == 2){
             ElectionManager.interes += ElectionManager.interes * 0.4f;
         
         }
     }
+    //Se resta una cantidad de monedas al jugador
     public void DesventajaConflictoNarco(){
         if(ElectionManager.TipoFinanciamiento == 1){
             ItemManager.verCoinsCount -= (int)Math.Round(ItemManager.verCoinsCount * 0.1f);
@@ -96,6 +112,7 @@ public class CartaD : ScriptableObject{
             ItemManager.verCoinsCount -= (int)Math.Round(ItemManager.verCoinsCount * 0.11f);
         }
     }
+    //Se resta una cantidad de monedas al jugador   
     public void DesventajaCrisisMercado(){
         if(ElectionManager.TipoFinanciamiento == 1){
             ItemManager.verCoinsCount -= (int)Math.Round(ItemManager.verCoinsCount * 0.1f);
@@ -106,6 +123,7 @@ public class CartaD : ScriptableObject{
 
         }
     }
+    //Se resta una cantidad de monedas al jugador
     public void DesventajaInundacion(){
         if(ElectionManager.TipoFinanciamiento == 1){
             ItemManager.verCoinsCount -= 4000;
@@ -115,15 +133,24 @@ public class CartaD : ScriptableObject{
             ItemManager.verCoinsCount -= 3500;
         }
     }
+    //Se aumentan los costos de los servicios
     public void DesventajaIncrementoCostos(){
         if(ElectionManager.TipoFinanciamiento == 1){
-            Debug.Log("Desventaja Incremento Costos Verqor");
+            RecapScript.CosotsLuz += RecapScript.CosotsLuz * 0.15f;
+            RecapScript.CostosAgua += RecapScript.CostosAgua * 0.15f;
+            RecapScript.CostosDistribucion += RecapScript.CostosDistribucion * 0.15f;
+
         }else if(ElectionManager.TipoFinanciamiento == 2){
-            Debug.Log("Desventaja Incremento Costos Coyote");
+            RecapScript.CosotsLuz += RecapScript.CosotsLuz * 0.25f;
+            RecapScript.CostosAgua += RecapScript.CostosAgua * 0.25f;
+            RecapScript.CostosDistribucion += RecapScript.CostosDistribucion * 0.25f;
         }else if(ElectionManager.TipoFinanciamiento == 3){
-            Debug.Log("Desventaja Incremento Costos Banco");
+            RecapScript.CosotsLuz += RecapScript.CosotsLuz * 0.18f;
+            RecapScript.CostosAgua += RecapScript.CostosAgua * 0.18f;
+            RecapScript.CostosDistribucion += RecapScript.CostosDistribucion * 0.18f;
         }
     }
+    //Se resta una cantidad de monedas al jugador
     public void DesventajaRoboCosecha(){
         if(ElectionManager.TipoFinanciamiento == 1){
             ItemManager.verCoinsCount -= (int)Math.Round(ItemManager.verCoinsCount * 0.2f);
@@ -134,6 +161,7 @@ public class CartaD : ScriptableObject{
 
         }
     }
+    //Se actualizan los valores de los precios de los cultivos
     public void DesventajaProblemasLogistica(){
         if(ElectionManager.TipoFinanciamiento == 1){
             RecapScript.precioMaiz -= RecapScript.precioMaiz * 0.08f;
@@ -156,12 +184,14 @@ public class CartaD : ScriptableObject{
         }
 
     }
+    //Aumenta el interes del jugador
     public void DesventajaAumentotasas(){
         if(ElectionManager.TipoFinanciamiento == 3){
             ElectionManager.interes += ElectionManager.interes * 0.3f;
         }
     }
 
+    //Se resta una cantidad de monedas al jugador
     public void DesventajaTarifaExortacion(){
         if(ElectionManager.TipoFinanciamiento == 1){
             ItemManager.verCoinsCount -= (int)Math.Round(ItemManager.verCoinsCount * 0.15f);
@@ -173,15 +203,17 @@ public class CartaD : ScriptableObject{
         }
 
     }
+    //Se actualizan los costos de los servicios
     public void DesventajaEscazesAgua(){
         if(ElectionManager.TipoFinanciamiento == 1){
-            Debug.Log("Desventaja Escazes Agua Verqor");
+            RecapScript.CostosAgua += RecapScript.CostosAgua * 0.2f;
         }else if(ElectionManager.TipoFinanciamiento == 2){
-            Debug.Log("Desventaja Escazes Agua Coyote");
+            RecapScript.CostosAgua += RecapScript.CostosAgua * 0.25f;
         }else if(ElectionManager.TipoFinanciamiento == 3){
-            Debug.Log("Desventaja Escazes Agua Banco");
+            RecapScript.CostosAgua += RecapScript.CostosAgua * 0.22f;
         }
     }
+    //Se resta una cantidad de monedas al jugador
     public void DesventajaIncendio(){
         if(ElectionManager.TipoFinanciamiento == 1){
             ItemManager.verCoinsCount -= -2000;
@@ -192,15 +224,17 @@ public class CartaD : ScriptableObject{
         }
         
     }
+    //Se actualizan los costos de los servicios
     public void DesventajaAumentoCostoEnergetico(){
         if(ElectionManager.TipoFinanciamiento == 1){
-            Debug.Log("Desventaja Aumento Costo Energetico Verqor");
+            RecapScript.CosotsLuz += RecapScript.CosotsLuz * 0.15f;
         }else if(ElectionManager.TipoFinanciamiento == 2){
-            Debug.Log("Desventaja Aumento Costo Energetico Coyote");
+            RecapScript.CosotsLuz += RecapScript.CosotsLuz * 0.17f;
         }else if(ElectionManager.TipoFinanciamiento == 3){
-            Debug.Log("Desventaja Aumento Costo Energetico Banco");
+            RecapScript.CosotsLuz += RecapScript.CosotsLuz * 0.17f;
         }
     }
+    //Se resta una cantidad de monedas al jugador
     public void DesventajaMultasRegulaciones(){
         if(ElectionManager.TipoFinanciamiento == 1){
             ItemManager.verCoinsCount -= 2500;

@@ -15,7 +15,7 @@ MonoBehaviour:
   SO_Id: 30
   SO_Pregunta: "\xBFQu\xE9 t\xE9cnica se utiliza en la agricultura regenerativa para
     integrar \xE1rboles en los sistemas agr\xEDcolas?"
-  SO_Op1: 
+  SO_Op1: Riego Masivo
   SO_Op2: Monocultivo
   SO_Op3: "Agroforester\xEDa"
   SO_Correcta: 3

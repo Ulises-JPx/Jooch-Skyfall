@@ -16,6 +16,6 @@ MonoBehaviour:
   V_titulo: "Estrategia de Comercializaci\xF3n"
   V_descripcion: "Desarrollas una estrategia de comercializaci\xF3n que aumenta la
     demanda de tus productos."
-  V_verqor: +12% en el precio de venta
-  V_coyote: +10% en el precio de venta
-  V_canco: +11% en el precio de venta
+  V_verqor: +12% en el precio de venta todos los cultivos
+  V_coyote: +10% en el precio de venta todos los cultivos
+  V_canco: +11% en el precio de venta todos los cultivos

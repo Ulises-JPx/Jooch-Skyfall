@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: 16
   m_EditorClassIdentifier: 
   T_id: 16
-  T_Tip: "La labranza m\xEDnima conserva la estructura del suelo"
+  T_Tip: "La labranza m\xEDnima conserva la estructura del suelo y reduce la erosi\xF3n
+    mientras aumenta la retenci\xF3n de agua."

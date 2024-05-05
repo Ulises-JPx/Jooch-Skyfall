@@ -16,6 +16,6 @@ MonoBehaviour:
   V_titulo: "Avance Tecnol\xF3gico"
   V_descripcion: "Innovaci\xF3n en maquinaria y t\xE9cnicas agr\xEDcolas aumenta
     la eficiencia en tu granja."
-  V_verqor: "+15% en producci\xF3n"
-  V_coyote: "+10% en producci\xF3n"
-  V_canco: "+12% en producci\xF3n"
+  V_verqor: "+15% en producci\xF3n total"
+  V_coyote: "+10% en producci\xF3n total"
+  V_canco: "+12% en producci\xF3n total"

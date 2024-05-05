@@ -1,15 +1,24 @@
+/*Código escrito por el equipo JOOCH SKYFALL 2024
+    Sebastián Espinoza Farías--------A01750311
+    Julio César Vivas Medina---------A01749879
+    Melissa Mireles Rendón-----------A01379736
+    Ulises Jaramillo Portilla--------A01798380
+    Alberto Cebreros González--------A01798671
+*/
 using System.Collections;
 using System.Collections.Generic;
 using System.Numerics;
 using UnityEngine;
-
+//Clase para que llueva comida en el juego de manera aleatoria
 public class RandomSpawner : MonoBehaviour
 {
+    // Referencias a los objetos que caen y definicion de los intervalos de tiempo
     public GameObject RainingMaiz;
     public GameObject RainingAguacate;
     public GameObject RainingChile;
     public GameObject RainingCafe;
     public GameObject RainingJitomate;
+    // Definicion de los limites de la pantalla en la que caerán 
     private float maxX = 8.23f;
     private float minX = -8.23f;
     private float maxY = 15f;
@@ -26,7 +35,7 @@ public class RandomSpawner : MonoBehaviour
     private float SpawnTimeJitomate;
 
 
-
+    //Funcion en la que dependiendo los tiemposdel juego, spawnearan las cosas
     void Update() {
         
         if(Time.time > SpawnTimeMaiz){

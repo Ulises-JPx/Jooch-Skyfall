@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: 1
   m_EditorClassIdentifier: 
   T_id: 1
-  T_Tip: Los criterios ASG son esenciales para evaluar el impacto ambiental
+  T_Tip: "Criterios ASG eval\xFAan impactos ambientales adem\xE1s de aspectos sociales
+    y de gobernanza en inversiones."

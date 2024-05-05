@@ -13,7 +13,5 @@ MonoBehaviour:
   m_Name: 13
   m_EditorClassIdentifier: 
   T_id: 13
-  T_Tip: "El rendimiento en agricultura representa la cantidad de cultivo producido
-    por \xE1rea de tierra. Maximizarlo implica utilizar pr\xE1cticas de cultivo eficientes
-    y gestionar los recursos de manera adecuada para optimizar la productividad de
-    la tierra."
+  T_Tip: "El rendimiento agr\xEDcola se refiere a la cantidad de cultivo producido
+    por \xE1rea de tierra."

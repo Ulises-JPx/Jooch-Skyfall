@@ -1,13 +1,13 @@
 ﻿NombreVentaja,Descripcion,EfectoVerqor,EfectoCoyote,EfectoBanco
-Comprador nacional,¡Has conseguido un nuevo comprador nacional para tus productos! Esto significa una mayor demanda y reconocimiento para tus cultivos.,10% aumento precio,8% aumento precio,10% aumento precio
-Nueva certificación,"Has obtenido una certificación orgánica para tus productos, lo que aumenta su valor en el mercado debido a su calidad y sostenibilidad.",17% aumento precio,15% aumento precio,20% aumento de precio
+Comprador nacional,¡Has conseguido un nuevo comprador nacional para tus productos! Esto significa una mayor demanda y reconocimiento para tus cultivos.,10% aumento precio todos los cultivos,8% aumento precio todos los cultivos,10% aumento precio todos los cultivos
+Nueva certificación,"Has obtenido una certificación orgánica para tus productos, lo que aumenta su valor en el mercado debido a su calidad y sostenibilidad.",17% aumento precio todos los cultivos,15% aumento precio todos los cultivos,20% aumento de precio todos los cultivos
 Lluvia Moderada,"El clima está a tu favor y tienes un período prolongado de lluvias moderadas, lo que favorece el crecimiento saludable de tus cultivos.",Mejora aparicion de cultivo,Mejora aparicion de cultivo,Mejora aparicion de cultivo
 Reducción de la Deuda,Has logrado reducir significativamente tu deuda agrícola gracias a una gestión financiera efectiva.,-10% deuda,-5% Deuda,-7% Deuda
 Venta Exitosa,Tu financiero te ha ayudado a vender tus estrategias agricolas,"""+""1000 Vercoins","""+"" 900 Vercoins","""+"" 950 Vercoins"
 Negociación Inteligente,"Felicidades, haz negociado con tu financiera y acordaron una reducción de interés",-2% interes,-1%Interes,-1.8% Interes
-Avance Tecnológico,Innovación en maquinaria y técnicas agrícolas aumenta la eficiencia en tu granja.,+15% en producción,+10% en producción,+12% en producción
+Avance Tecnológico,Innovación en maquinaria y técnicas agrícolas aumenta la eficiencia en tu granja.,+15% en producción total,+10% en producción total,+12% en producción total
 Optimización de Recursos,Mejoras en la gestión de recursos hídricos y energéticos reducen costos de producción.,-20% en costos operativos,-15% en costos operativos,-18% en costos operativos
-Estrategia de Comercialización,Desarrollas una estrategia de comercialización que aumenta la demanda de tus productos.,+12% en el precio de venta,+10% en el precio de venta,+11% en el precio de venta
+Estrategia de Comercialización,Desarrollas una estrategia de comercialización que aumenta la demanda de tus productos.,+12% en el precio de venta todos los cultivos,+10% en el precio de venta todos los cultivos,+11% en el precio de venta todos los cultivos
 Cosecha Dorada,Condiciones climáticas ideales han llevado a un rendimiento récord en tu producción de maíz.,+20% producción de maíz,+15% producción de maíz,+18% producción de maíz
 Festival del Chile,"Tu comunidad ha celebrado el Festival del Chile, aumentando la demanda y el interés en tus chiles.",+20% producción de chile,+15% producción de chile,+18% producción de chile
 Despertar Aromático,Innovaciones en el procesamiento del café han mejorado la calidad y rendimiento de tu café.,+20% producción de café,+15% producción de café,+18% producción de café
